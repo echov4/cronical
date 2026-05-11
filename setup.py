@@ -11,13 +11,24 @@ cron = CronTab(user=True)
 PATH = Path(__file__).parent
 WATCHER_FILE = "cron-watcher.py"
 CRONS_DIRECTORY= "crons"
-# name of the device
-DEVICE_NAME = ""
-DEVICE_FILE = ""
 
-# Get the device name and check if it already exists as a folder in /crons
+
+# check and create the crons/ folder
+if "crons" in os.listdir(PATH):
+    print("crons/ directory exists")
+else:
+    os.mkdir(PATH/"crons")
+    print("Created crons/ directory")
+# Get the device name and check if it already exists as a file in /crons
 while True:
-    DEVICE_NAME = str(input("Enter in the name of the device: \t"))
+    device_input = str(input("Enter in the name of the device: \t"))
+
+    # if device name is empty then throw error
+    if not device_input:
+        print("ERROR: Device name cannot be empty")
+        continue
+
+    DEVICE_NAME = device_input.split()[0]
     DEVICE_FILE = PATH / CRONS_DIRECTORY / f"{DEVICE_NAME}.txt"
 
     try:
@@ -39,12 +50,13 @@ watcher_added_status = False
 for job in cron:
     if watcher_command in job.command:
         watcher_added_status = True
+        break
 
 # if the job is not in the crontabs, then add the watcher script there
 if watcher_added_status == False:
     job = cron.new(command=watcher_command)
     job.minute.every(5)
-    job.set_comment("cron-cal-watcher")
+    job.set_comment("cronical-watcher")
     cron.write()
     print("Added the watcher script as a cron job with the command\n\t" + watcher_command)
 else:
@@ -59,14 +71,16 @@ original_cronjobs = subprocess.run(
     text=True
 )
 
-# save the current cronjobs to the device file
-with open(DEVICE_FILE, "w") as f:
-    f.write(original_cronjobs.stdout)
-
+# save the current cronjobs to the device file if it has read correctly
+if original_cronjobs.returncode == 0:
+    with open(DEVICE_FILE, "w") as f:
+        f.write(original_cronjobs.stdout)
+else:
+    print("Error reading cronjobs")
 
 # setup the .env file if it does not exist
 if not os.path.isfile(PATH / ".env"):
-    with open(".env", "w") as f:
+    with open(PATH / ".env", "w") as f:
         f.writelines(f"DEVICE_NAME={DEVICE_NAME}\n")
         f.writelines(f"DEVICE_PATH={DEVICE_FILE}\n")
         f.writelines("GITHUB_PAT=\n")
@@ -75,3 +89,18 @@ if not os.path.isfile(PATH / ".env"):
 else:
     print(".env file already exists")
 
+
+# check the .gitignore file and add the .env in there
+gitignore = PATH / ".gitignore"
+if not gitignore.exists():
+    gitignore.open("w").close()
+    print("Creating a .gitignore file")
+else:
+    print("gitignore file already exists")
+
+if ".env" not in gitignore.read_text():
+    with open(gitignore, "a") as f:
+        f.write("\n.env\n")
+    print(".env added to .gitignore")
+else:
+    print(".env already in .gitignore")
