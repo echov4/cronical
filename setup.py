@@ -3,15 +3,8 @@ import os
 from crontab import CronTab
 from pathlib import Path
 
-# ? Get the device name (for the file in crons) and saves it in the .env file
-    # needs more checks
-# ? Adds a cronjob of the watcher script to all cronjobs
-    # needs checks
-# ? Copies the current cronjobs into the {device file in crons}
-    # seems fine
-# ? Sets up the .env file including parameters (DEVICE_NAME, ....)
-    # requires more checks
 
+# gets the crontabs of the current user only
 cron = CronTab(user=True)
 
 # path of directories
@@ -20,8 +13,7 @@ WATCHER_FILE = "cron-watcher.py"
 CRONS_DIRECTORY= "crons"
 # name of the device
 DEVICE_NAME = ""
-DEVICE_FILE = PATH / CRONS_DIRECTORY / f"{DEVICE_NAME}.txt"
-
+DEVICE_FILE = ""
 
 # Get the device name and check if it already exists as a folder in /crons
 while True:
@@ -32,7 +24,7 @@ while True:
         DEVICE_FILE.open("x").close()
         print(f"Device cron file {PATH}/{CRONS_DIRECTORY}/{DEVICE_NAME} is created")
         break
-    except:
+    except FileExistsError:
         print("ERROR: Device cron file already exists")
         print(f"- Check if {PATH}/{DEVICE_NAME} already exists and added already")
         print(F"- Check if {PATH}/{DEVICE_NAME} is a name for another device")
@@ -73,10 +65,13 @@ with open(DEVICE_FILE, "w") as f:
 
 
 # setup the .env file if it does not exist
-if not os.path.isfile(".env"):
+if not os.path.isfile(PATH / ".env"):
     with open(".env", "w") as f:
         f.writelines(f"DEVICE_NAME={DEVICE_NAME}\n")
         f.writelines(f"DEVICE_PATH={DEVICE_FILE}\n")
         f.writelines("GITHUB_PAT=\n")
         f.writelines("OTHER=\n")
+    print(".env file has been created and needs to be filled in")
+else:
+    print(".env file already exists")
 
