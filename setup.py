@@ -7,100 +7,119 @@ from pathlib import Path
 # gets the crontabs of the current user only
 cron = CronTab(user=True)
 
-# path of directories
+# global
 PATH = Path(__file__).parent
 WATCHER_FILE = "cron-watcher.py"
 CRONS_DIRECTORY= "crons"
 
-
-# check and create the crons/ folder
-if "crons" in os.listdir(PATH):
-    print("crons/ directory exists")
-else:
-    os.mkdir(PATH/"crons")
-    print("Created crons/ directory")
-# Get the device name and check if it already exists as a file in /crons
-while True:
-    device_input = str(input("Enter in the name of the device: \t"))
-
-    # if device name is empty then throw error
-    if not device_input:
-        print("ERROR: Device name cannot be empty")
-        continue
-
-    DEVICE_NAME = device_input.split()[0]
-    DEVICE_FILE = PATH / CRONS_DIRECTORY / f"{DEVICE_NAME}.txt"
-
-    try:
-        DEVICE_FILE.open("x").close()
-        print(f"Device cron file {PATH}/{CRONS_DIRECTORY}/{DEVICE_NAME} is created")
-        break
-    except FileExistsError:
-        print("ERROR: Device cron file already exists")
-        print(f"- Check if {PATH}/{DEVICE_NAME} already exists and added already")
-        print(F"- Check if {PATH}/{DEVICE_NAME} is a name for another device")
-        print("- If it is a new device, enter in a different name for this device ")
+# check and create the crons folder
+def create_cron_folder():
+    if CRONS_DIRECTORY in os.listdir(PATH):
+        print(f"{CRONS_DIRECTORY}/ directory already exists")
+    else:
+        os.mkdir(PATH/CRONS_DIRECTORY)
+        print(f"Created the {CRONS_DIRECTORY}/ directory")
 
 
-# add the watcher script to the cronjob for every 5 minutes update
-watcher_command = f"python {PATH}/{WATCHER_FILE}"
+# Get the device name and check if it already exists as a file in /crons, if not then create it
+# returns the device name in string, and device file path
+def create_device_file():
+    while True:
+        device_input = str(input("Enter in the name of the device file (no spaces): \t"))
 
-# check if the watcher is already added into the cronjobs
-watcher_added_status = False
-for job in cron:
-    if watcher_command in job.command:
-        watcher_added_status = True
-        break
+        # if device name is empty then throw error and try again
+        if not device_input or " " in device_input:
+            print("ERROR: Device file name cannot be empty or contain spaces")
+            continue
 
-# if the job is not in the crontabs, then add the watcher script there
-if watcher_added_status == False:
-    job = cron.new(command=watcher_command)
-    job.minute.every(5)
-    job.set_comment("cronical-watcher")
-    cron.write()
-    print("Added the watcher script as a cron job with the command\n\t" + watcher_command)
-else:
-    print("Cronjob is already added in the cronjobs file")
+        device_name = device_input.split()[0]
+        device_file = PATH / CRONS_DIRECTORY / f"{device_name}.txt"
+
+        # create the device file
+        try:
+            device_file.open("x").close()
+            print(f"Device file {device_file} is created")
+            break
+        except FileExistsError:
+            print("ERROR: Device file already exists")
+            print(f"- Check if {device_file} already exists and added already")
+            print(F"- Check if {device_file} is a name for another device")
+            print("- If it is a new device, enter in a different name for this device ")
+    return device_file, device_name
+
+# add the watcher script to the original cronjob for every minute update
+def add_watcher_to_crontab():
+    watcher_command = f"python {PATH}/{WATCHER_FILE}"
+
+    # check if the watcher script is already added into the cronjobs
+    watcher_added_status = False
+    for job in cron:
+        if watcher_command in job.command:
+            watcher_added_status = True
+            break
+
+    # if the watcher script command is not in the original cronjobs, then add the watcher script command
+    if watcher_added_status == False:
+        job = cron.new(command=watcher_command)
+        job.minute.every(1)
+        job.set_comment("cronical-watcher")
+        cron.write()
+        print("Added the watcher script command in the original cronjob, the command:\n" + watcher_command)
+    else:
+        print("Watcher file command is already in the original cronjob")
+
+# append the newly created device file with all the contents of all the original cronjobs
+def add_original_cronjobs_to_device_file(device_file):
+    # get the original cronjobs from command
+    original_cronjobs = subprocess.run(
+        ["crontab", "-l"],
+        capture_output=True,
+        text=True
+    )
+
+    # save the original cronjobs to the device file if it has read correctly
+    if original_cronjobs.returncode == 0:
+        with open(device_file, "w") as f:
+            f.write(original_cronjobs.stdout)
+    else:
+        print("Error reading cronjobs")
+
+# setup the env file if it does not exist
+def setup_env_file(device_file, device_name):
+    if not os.path.isfile(PATH / ".env"):
+        with open(PATH / ".env", "w") as f:
+            f.writelines(f"DEVICE_NAME={device_name}\n")
+            f.writelines(f"DEVICE_PATH={device_file}\n")
+            f.writelines("GITHUB_PAT=\n")
+            f.writelines("OTHER=\n")
+        print(".env file has been created and needs to be filled in")
+    else:
+        print(".env file already exists")
+
+# sets the .gitignore file and adds the .env file in there
+def setup_gitignore():
+    # check if gitignore exists
+    gitignore = PATH / ".gitignore"
+    if not gitignore.exists():
+        gitignore.open("w").close()
+        print("Creating a .gitignore file")
+    else:
+        print("gitignore file already exists")
+
+    # check if .env file is in the gitignore
+    if ".env" not in gitignore.read_text():
+        with open(gitignore, "a") as f:
+            f.write("\n.env\n")
+        print(".env added to .gitignore")
+    else:
+        print(".env already in .gitignore")
 
 
-# append the device file with all the contents of the cronjobs
-# get the original cronjobs from command
-original_cronjobs = subprocess.run(
-    ["crontab", "-l"],
-    capture_output=True,
-    text=True
-)
-
-# save the current cronjobs to the device file if it has read correctly
-if original_cronjobs.returncode == 0:
-    with open(DEVICE_FILE, "w") as f:
-        f.write(original_cronjobs.stdout)
-else:
-    print("Error reading cronjobs")
-
-# setup the .env file if it does not exist
-if not os.path.isfile(PATH / ".env"):
-    with open(PATH / ".env", "w") as f:
-        f.writelines(f"DEVICE_NAME={DEVICE_NAME}\n")
-        f.writelines(f"DEVICE_PATH={DEVICE_FILE}\n")
-        f.writelines("GITHUB_PAT=\n")
-        f.writelines("OTHER=\n")
-    print(".env file has been created and needs to be filled in")
-else:
-    print(".env file already exists")
-
-
-# check the .gitignore file and add the .env in there
-gitignore = PATH / ".gitignore"
-if not gitignore.exists():
-    gitignore.open("w").close()
-    print("Creating a .gitignore file")
-else:
-    print("gitignore file already exists")
-
-if ".env" not in gitignore.read_text():
-    with open(gitignore, "a") as f:
-        f.write("\n.env\n")
-    print(".env added to .gitignore")
-else:
-    print(".env already in .gitignore")
+# MAIN
+create_cron_folder()
+device_file, device_name = create_device_file()
+add_watcher_to_crontab()
+add_original_cronjobs_to_device_file(device_file)
+setup_env_file(device_file, device_name)
+setup_gitignore()
+print("SETUP COMPLETED")
