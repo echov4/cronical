@@ -3,7 +3,7 @@ Cronjobs into a subscribed calendar
 
 ## Directory
 
-## `setup.sh`
+## `setup.py`
 
-## `cron-watcher.sh`
+## `cron-watcher.py`
 
