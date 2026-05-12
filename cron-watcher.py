@@ -49,7 +49,7 @@ def git_commit():
     )
     if result.returncode != 0:
         print(f"Error committing: {result.stderr}")
-        print("{result.stdout}")
+        print(f"{result.stdout}")
         exit(1)
     print(f"Repo committed")
 
