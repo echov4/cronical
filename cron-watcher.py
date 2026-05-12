@@ -17,13 +17,17 @@ load_dotenv()
 DEVICE_NAME = os.getenv("DEVICE_NAME")
 DEVICE_FILE_PATH = os.getenv("DEVICE_PATH")
 GITHUB_PAT = os.getenv("GITHUB_PAT")
+GITHUB_REPO_NAME = os.getenv("GITHUB_REPO_NAME")
+GITHUB_USER = os.getenv("GITHUB_USER")
+REMOTE_URL = f"https://{GITHUB_PAT}@github.com/{GITHUB_USER}/{GITHUB_REPO_NAME}.git"
+
 # gets the crontabs of the current user only
 cron = CronTab(user=True)
 
 
 def git_pull():
     result = subprocess.run(
-        ["git", "-C", str(PATH), "pull", "--rebase"],
+        ["git", "-C", str(PATH), "pull", "--rebase", REMOTE_URL],
         capture_output=True,
         text=True
     )
