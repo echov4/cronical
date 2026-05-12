@@ -62,7 +62,7 @@ def git_commit():
 
 def git_push():
     result = subprocess.run(
-        ["git",  "-C", str(PATH), "push"],
+        ["git",  "-C", str(PATH), "push", REMOTE_URL],
         capture_output=True,
         text=True
     )
