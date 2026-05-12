@@ -138,10 +138,19 @@ def setup_gitignore():
     # check if .env file is in the gitignore
     if ".env" not in gitignore.read_text():
         with open(gitignore, "a") as f:
-            f.write("\n.env\n")
+            f.write(".env\n")
         print(".env added to .gitignore")
     else:
         print(".env already in .gitignore")
+
+    # cheec if .venv/ folder is in gitignore
+    if ".venv/" not in gitignore.read_text():
+        with open(gitignore, "a") as f:
+            f.write(".venv/\n")
+        print(".venv/ added in .gitignore")
+    else:
+        print(".venv/ already in .gitignore")
+
 
 
 # MAIN

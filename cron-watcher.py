@@ -83,7 +83,8 @@ def get_original_cronjobs():
     if original_cronjobs.returncode == 0:
         return original_cronjobs
     else:
-        exit(0)
+        print("Error: could not read crontab")
+        exit(1)
 
 # monitors the string output of the cronjobs compared to the device file
 # returns True if there is changes, returns False if no changes
@@ -104,6 +105,7 @@ def update_device_file(original_cronjobs):
 
 # MAIN
 # if there are changes in the cronjob then execute the changes
+check_env_variables()
 original_cronjobs = get_original_cronjobs()
 if monitor_cron_changes(original_cronjobs):
     print("different")
