@@ -2,6 +2,7 @@ import subprocess
 import os
 from crontab import CronTab
 from pathlib import Path
+import shutil
 
 
 # gets the crontabs of the current user only
@@ -11,6 +12,29 @@ cron = CronTab(user=True)
 PATH = Path(__file__).parent
 WATCHER_FILE = "cron-watcher.py"
 CRONS_DIRECTORY= "crons"
+
+# checks to see if git is installed, and the .venv exists
+def checkup_and_set_environment():
+    # check if git is installed
+    if shutil.which("git") is None:
+        print("Error: git is not installed, will need to install before running the script")
+        exit(1)
+    else:
+        print("Git is installed")
+
+    # make a .venv folder
+    if ".venv" not in os.listdir(PATH):
+        print(".venv does not exist, run `uv sync`")
+        exit(1)
+    else:
+        print(".venv is already created")
+
+    # get the .venv runtime path
+    python_venv_runtime = f"{PATH}/.venv/bin/python"
+
+    # return the path to the python runtime for the cronjob runtime
+    return python_venv_runtime
+
 
 # check and create the crons folder
 def create_cron_folder():
@@ -48,9 +72,8 @@ def create_device_file():
     return device_file, device_name
 
 # add the watcher script to the original cronjob for every minute update
-def add_watcher_to_crontab():
-    VENV_PATH = "/home/linux/git/github/cronical/.venv/bin/python"
-    watcher_command = f"{VENV_PATH} {PATH}/{WATCHER_FILE}"
+def add_watcher_to_crontab(python_runtime_path):
+    watcher_command = f"{python_runtime_path} {PATH}/{WATCHER_FILE}"
 
     # check if the watcher script is already added into the cronjobs
     watcher_added_status = False
@@ -123,10 +146,11 @@ def setup_gitignore():
 
 
 # MAIN
-create_cron_folder()
-device_file, device_name = create_device_file()
-add_watcher_to_crontab()
-add_original_cronjobs_to_device_file(device_file)
-setup_env_file(device_file, device_name)
-setup_gitignore()
-print("SETUP COMPLETED")
+python_runtime_path = checkup_and_set_environment()
+# create_cron_folder()
+# device_file, device_name = create_device_file()
+add_watcher_to_crontab(python_runtime_path)
+# add_original_cronjobs_to_device_file(device_file)
+# setup_env_file(device_file, device_name)
+# setup_gitignore()
+# print("SETUP COMPLETED")
