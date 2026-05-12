@@ -33,6 +33,45 @@ def git_pull():
     print("Repo pulled")
 
 
+def git_add():
+    result = subprocess.run(
+        ["git",  "-C", str(PATH), "add", "."],
+        capture_output=True,
+        text=True
+    )
+    if result.returncode != 0:
+        print(f"Error adding: {result.stderr}")
+        exit(1)
+    print("Repo added")
+
+
+def git_commit():
+    result = subprocess.run(
+        ["git",  "-C", str(PATH), "commit", "-m", f"auto: update crons [{DEVICE_NAME}]"],
+        capture_output=True,
+        text=True
+    )
+    if result.returncode != 0:
+        print(f"Error committing: {result.stderr}")
+        exit(1)
+    print("Repo committed")
+
+def git_push():
+    result = subprocess.run(
+        ["git",  "-C", str(PATH), "push"],
+        capture_output=True,
+        text=True
+    )
+    if result.returncode != 0:
+        print(f"Error pushing: {result.stderr}")
+        exit(1)
+    print("Repo pushed")
+
+
+
+
+
+
 def get_original_cronjobs():
     original_cronjobs = subprocess.run(
         ["crontab", "-l"],
@@ -62,12 +101,18 @@ def update_device_file(original_cronjobs):
     with open(DEVICE_FILE_PATH, "w") as f:
         f.write(original_cronjobs.stdout)
 
-git_pull()
+
+
+# MAIN
 # if there are changes in the cronjob then execute the changes
-# original_cronjobs = get_original_cronjobs()
-# if monitor_cron_changes(original_cronjobs):
-    # print("different")
-    # update_device_file(original_cronjobs)
-# else:
-    # print("same")
-    # pass
+original_cronjobs = get_original_cronjobs()
+if monitor_cron_changes(original_cronjobs):
+    print("different")
+    update_device_file(original_cronjobs)
+    git_add()
+    git_commit()
+    git_pull()
+    # git_push()
+else:
+    print("same")
+    pass
