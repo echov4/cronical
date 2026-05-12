@@ -4,7 +4,6 @@ from crontab import CronTab
 from pathlib import Path
 import shutil
 
-
 # gets the crontabs of the current user only
 cron = CronTab(user=True)
 
@@ -30,10 +29,10 @@ def checkup_and_set_environment():
         print(".venv is already created")
 
     # get the .venv runtime path
-    python_venv_runtime = f"{PATH}/.venv/bin/python"
+    python_venv_runtime_path = f"{PATH}/.venv/bin/python"
 
     # return the path to the python runtime for the cronjob runtime
-    return python_venv_runtime
+    return python_venv_runtime_path
 
 
 # check and create the crons folder
@@ -72,8 +71,8 @@ def create_device_file():
     return device_file, device_name
 
 # add the watcher script to the original cronjob for every minute update
-def add_watcher_to_crontab(python_runtime_path):
-    watcher_command = f"{python_runtime_path} {PATH}/{WATCHER_FILE}"
+def add_watcher_to_crontab(python_venv_runtime_path):
+    watcher_command = f"{python_venv_runtime_path} {PATH}/{WATCHER_FILE}"
 
     # check if the watcher script is already added into the cronjobs
     watcher_added_status = False
@@ -122,7 +121,7 @@ def setup_env_file(device_file, device_name):
             f.writelines(f"GITHUB_USER={github_user}\n")
             f.writelines(f"GITHUB_REPO_NAME={github_repo_name}\n")
 
-        print(".env file has been created and needs to be filled in")
+        print(".env file has been created with the variables")
     else:
         print(".env file already exists")
 
@@ -146,11 +145,11 @@ def setup_gitignore():
 
 
 # MAIN
-python_runtime_path = checkup_and_set_environment()
-# create_cron_folder()
-# device_file, device_name = create_device_file()
-add_watcher_to_crontab(python_runtime_path)
-# add_original_cronjobs_to_device_file(device_file)
-# setup_env_file(device_file, device_name)
-# setup_gitignore()
-# print("SETUP COMPLETED")
+python_venv_runtime_path = checkup_and_set_environment()
+create_cron_folder()
+device_file, device_name = create_device_file()
+add_watcher_to_crontab(python_venv_runtime_path)
+add_original_cronjobs_to_device_file(device_file)
+setup_env_file(device_file, device_name)
+setup_gitignore()
+print("SETUP COMPLETED")
