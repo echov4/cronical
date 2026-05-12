@@ -19,6 +19,11 @@ REMOTE_URL = f"https://{GITHUB_PAT}@github.com/{GITHUB_USER}/{GITHUB_REPO_NAME}.
 cron = CronTab(user=True)
 
 
+def check_env_variables():
+    if not all([DEVICE_NAME, DEVICE_FILE_PATH, GITHUB_PAT, GITHUB_REPO_NAME, GITHUB_USER]):
+        print("Error: missing required .env variables, run setup.py first or fill it in")
+        exit(1)
+
 def git_pull():
     result = subprocess.run(
         ["git", "-C", str(PATH), "pull", "--rebase", REMOTE_URL],
