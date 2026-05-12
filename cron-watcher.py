@@ -103,6 +103,10 @@ def update_device_file(original_cronjobs):
         f.write(original_cronjobs.stdout)
 
 
+git_add()
+git_commit()
+git_pull()
+git_push()
 # MAIN
 # if there are changes in the cronjob then execute the changes
 check_env_variables()
