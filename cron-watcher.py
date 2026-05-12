@@ -12,7 +12,7 @@ from pathlib import Path
 
 PATH = Path(__file__).parent
 # load the .env file
-load_dotenv()
+load_dotenv(PATH / ".env")
 # get the device name and file path
 DEVICE_NAME = os.getenv("DEVICE_NAME")
 DEVICE_FILE_PATH = os.getenv("DEVICE_PATH")
