@@ -27,6 +27,7 @@ def git_pull():
     )
     if result.returncode != 0:
         print(f"Error pulling: {result.stderr}")
+        print(f"{result.stdout}")
         exit(1)
     print("Repo pulled")
 
@@ -38,6 +39,7 @@ def git_add():
     )
     if result.returncode != 0:
         print(f"Error adding: {result.stderr}")
+        print(f"{result.stdout}")
         exit(1)
     print("Repo added")
 
@@ -61,6 +63,7 @@ def git_push():
     )
     if result.returncode != 0:
         print(f"Error pushing: {result.stderr}")
+        print(f"{result.stdout}")
         exit(1)
     print("Repo pushed")
 
