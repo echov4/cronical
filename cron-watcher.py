@@ -1,9 +1,3 @@
-# Monitor the changes in the cronjob files and current file
-# If there is a change
-    # Pulls the repo
-    # Update the local cronjobs
-    # Push it up to GitHub
-
 import os
 import subprocess
 from crontab import CronTab
@@ -36,7 +30,6 @@ def git_pull():
         exit(1)
     print("Repo pulled")
 
-
 def git_add():
     result = subprocess.run(
         ["git",  "-C", str(PATH), "add", "."],
@@ -48,10 +41,9 @@ def git_add():
         exit(1)
     print("Repo added")
 
-
 def git_commit():
     result = subprocess.run(
-        ["git",  "-C", str(PATH), "commit", "-m", f"auto: update crons [{DEVICE_NAME}]"],
+        ["git",  "-C", str(PATH), "commit", "-m", f"auto: update crons for device [{DEVICE_NAME}]"],
         capture_output=True,
         text=True
     )
@@ -72,10 +64,6 @@ def git_push():
     print("Repo pushed")
 
 
-
-
-
-
 def get_original_cronjobs():
     original_cronjobs = subprocess.run(
         ["crontab", "-l"],
@@ -87,7 +75,6 @@ def get_original_cronjobs():
         return original_cronjobs
     else:
         exit(0)
-
 
 # monitors the string output of the cronjobs compared to the device file
 # returns True if there is changes, returns False if no changes
@@ -104,7 +91,6 @@ def monitor_cron_changes(original_cronjobs):
 def update_device_file(original_cronjobs):
     with open(DEVICE_FILE_PATH, "w") as f:
         f.write(original_cronjobs.stdout)
-
 
 
 # MAIN
