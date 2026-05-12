@@ -103,21 +103,16 @@ def update_device_file(original_cronjobs):
         f.write(original_cronjobs.stdout)
 
 
-git_add()
-git_commit()
-git_pull()
-git_push()
-
 # MAIN
 # if there are changes in the cronjob then execute the changes
-# check_env_variables()
-# original_cronjobs = get_original_cronjobs()
-# if monitor_cron_changes(original_cronjobs):
-#     print("different")
-#     update_device_file(original_cronjobs)
-#     git_add()
-#     git_commit()
-#     git_pull()
-#     git_push()
-# else:
-#     print("same")
+check_env_variables()
+original_cronjobs = get_original_cronjobs()
+if monitor_cron_changes(original_cronjobs):
+    print("different")
+    update_device_file(original_cronjobs)
+    git_add()
+    git_commit()
+    git_pull()
+    git_push()
+else:
+    print("same")
