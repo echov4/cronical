@@ -116,7 +116,6 @@ if monitor_cron_changes(original_cronjobs):
     git_add()
     git_commit()
     git_pull()
-    # git_push()
+    git_push()
 else:
     print("same")
-    pass
