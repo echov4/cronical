@@ -89,7 +89,7 @@ def add_original_cronjobs_to_device_file(device_file):
 def setup_env_file(device_file, device_name):
     if not os.path.isfile(PATH / ".env"):
         github_user = input("Enter in your github username (case sensitive)\t")
-        github_repo = input("Enter in the repo of the github (case sensitive)\t")
+        github_repo_name = input("Enter in the repo of the github (case sensitive)\t")
         github_pat = input("Enter in your github PAT code\t")
 
         with open(PATH / ".env", "w") as f:
@@ -97,7 +97,7 @@ def setup_env_file(device_file, device_name):
             f.writelines(f"DEVICE_PATH={device_file}\n")
             f.writelines(f"GITHUB_PAT={github_pat}\n")
             f.writelines(f"GITHUB_USER={github_user}\n")
-            f.writelines(f"GITHUB_REPO={github_repo}\n")
+            f.writelines(f"GITHUB_REPO_NAME={github_repo_name}\n")
 
         print(".env file has been created and needs to be filled in")
     else:
