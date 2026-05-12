@@ -10,14 +10,27 @@ from crontab import CronTab
 from dotenv import load_dotenv
 from pathlib import Path
 
+PATH = Path(__file__).parent
 # load the .env file
 load_dotenv()
 # get the device name and file path
 DEVICE_NAME = os.getenv("DEVICE_NAME")
 DEVICE_FILE_PATH = os.getenv("DEVICE_PATH")
+GITHUB_PAT = os.getenv("GITHUB_PAT")
 # gets the crontabs of the current user only
 cron = CronTab(user=True)
 
+
+def git_pull():
+    result = subprocess.run(
+        ["git", "-C", str(PATH), "pull", "--rebase"],
+        capture_output=True,
+        text=True
+    )
+    if result.returncode != 0:
+        print(f"Error pulling: {result.stderr}")
+        exit(1)
+    print("Repo pulled")
 
 
 def get_original_cronjobs():
@@ -49,12 +62,12 @@ def update_device_file(original_cronjobs):
     with open(DEVICE_FILE_PATH, "w") as f:
         f.write(original_cronjobs.stdout)
 
-
+git_pull()
 # if there are changes in the cronjob then execute the changes
-original_cronjobs = get_original_cronjobs()
-if monitor_cron_changes(original_cronjobs):
+# original_cronjobs = get_original_cronjobs()
+# if monitor_cron_changes(original_cronjobs):
     # print("different")
-    update_device_file(original_cronjobs)
-else:
+    # update_device_file(original_cronjobs)
+# else:
     # print("same")
-    pass
+    # pass

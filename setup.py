@@ -49,7 +49,8 @@ def create_device_file():
 
 # add the watcher script to the original cronjob for every minute update
 def add_watcher_to_crontab():
-    watcher_command = f"python {PATH}/{WATCHER_FILE}"
+    VENV_PATH = "/home/linux/git/github/cronical/.venv/bin/python"
+    watcher_command = f"{VENV_PATH} {PATH}/{WATCHER_FILE}"
 
     # check if the watcher script is already added into the cronjobs
     watcher_added_status = False
