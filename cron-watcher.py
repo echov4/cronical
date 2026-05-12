@@ -105,7 +105,7 @@ def update_device_file(original_cronjobs):
 
 git_add()
 git_commit()
-# git_pull()
+git_pull()
 git_push()
 
 # MAIN
