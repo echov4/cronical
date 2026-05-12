@@ -51,7 +51,7 @@ def git_commit():
         print(f"Error committing: {result.stderr}")
         print("{result.stdout}")
         exit(1)
-    print("Repo committed")
+    print(f"Repo committed")
 
 def git_push():
     result = subprocess.run(
