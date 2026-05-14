@@ -1,26 +1,19 @@
-# get all the the files in crons/ and their contents
-
-# store as a dict
-# remove all the comments and strip and trim the jobs
-
-# get the time for each job and parse it to date time in ICS
-# generate the ICS file
-# save it to the public folder
-# BONUS: test it with the cloudflare and subscribe to it
-
 from pathlib import Path
 import os
 from crontab import CronTab
-
-from ics import Calendar, Event
 from datetime import datetime
+
 
 
 PATH = Path(__file__).parent
 CRONS_DIRECTORY = "crons"
-
 # list of  dicts of all cronjobs
 ALL_CRONS = []
+
+# threshold for how many days to create jobs for
+HORIZON_DAYS = 90
+# minimum job length in minutes for it to be an all day event
+ALLDAY_THRESHOLD_MINUTES = 10
 
 
 # gets the crons of each file
@@ -48,6 +41,7 @@ def parse_crons(file, file_contents):
                 "device":Path(file).stem,
                 "raw-cron":job,
                 "cron-time":str(job.slices),
+                "human-time": job.description(),
                 "command": job.command,
                 "comments": job.comment,
             }
@@ -55,7 +49,6 @@ def parse_crons(file, file_contents):
 
 def generate_date_time_for_cronjob():
     pass
-
 
 
 
@@ -76,15 +69,10 @@ def save_ics_file():
 
 
 
+
+# MAIN
 get_device_file_crons()
 
 
-
-# testing
-for cron in ALL_CRONS:
-    print(f"Device: {cron['device']}")
-    print(f"Raw: {cron['raw-cron']}")
-    print(f"Time: {cron['cron-time']}")
-    print(f"Command: {cron['command']}")
-    print(f"Comments: {cron['comments']}")
-    print("\n\n\n")
+# for job in ALL_CRONS:
+#     print(job["human-time"])
