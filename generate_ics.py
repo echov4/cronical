@@ -36,18 +36,22 @@ def get_device_file_crons():
 def parse_crons(file, file_contents):
     cron = CronTab(tab=file_contents)
     for job in cron:
-        ALL_CRONS.append(
-            {
-                "device":Path(file).stem,
-                "raw-cron":job,
-                "cron-time":str(job.slices),
-                "human-time": job.description(),
-                "command": job.command,
-                "comments": job.comment,
-            }
-        )
+        # checks to see if it is a valid job and is not commented out
+        if job.is_enabled():
+            ALL_CRONS.append(
+                {
+                    "device":Path(file).stem,
+                    "raw-cron":job,
+                    "cron-time":str(job.slices),
+                    "human-time": job.description(),
+                    "command": job.command,
+                    "comments": job.comment,
+                    "next-runs": [],
+                }
+            )
 
-def generate_date_time_for_cronjob():
+
+def generate_next_runs():
     pass
 
 
@@ -74,5 +78,12 @@ def save_ics_file():
 get_device_file_crons()
 
 
-# for job in ALL_CRONS:
-#     print(job["human-time"])
+for job in ALL_CRONS:
+    print(
+                "device", job["device"],
+                # "raw-cron", job["raw-cron"],
+                # "cron-time", job["cron-time"],
+                # "human time",job["human-time"],
+                "command",job["command"],
+                "comments",job["comments"],
+    )
