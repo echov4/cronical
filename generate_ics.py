@@ -12,51 +12,50 @@ from pathlib import Path
 import os
 from crontab import CronTab
 
+from ics import Calendar, Event
+from datetime import datetime
+
 
 PATH = Path(__file__).parent
-CRONS_DIRECTORY = "crons/"
+CRONS_DIRECTORY = "crons"
 
-# list of  dicts
-ALL_CRONS_FILES = []
+# list of  dicts of all cronjobs
+ALL_CRONS = []
 
+
+# gets the crons of each file
 def get_device_file_crons():
     # get all the files
     all_device_files= os.listdir(PATH/CRONS_DIRECTORY)
 
-    # check if atleast one file exists
+    # check if at least one file exists
     if len(all_device_files) == 0:
         print("Error: no device files, need to set it up")
         exit(1)
 
-    # get all the contents of the files
+    # get all the contents of the files and parse them
     for file in all_device_files:
-        parse_crons(file)
+        file_contents = ((PATH/CRONS_DIRECTORY/file).read_text())
+        parse_crons(file, file_contents)
 
 
-        # print((PATH/CRONS_DIRECTORY/file).read_text())
+# parse the file contents of the file and save it to the ALL_CRONS
+def parse_crons(file, file_contents):
+    cron = CronTab(tab=file_contents)
+    for job in cron:
+        ALL_CRONS.append(
+            {
+                "device":Path(file).stem,
+                "raw-cron":job,
+                "cron-time":str(job.slices),
+                "command": job.command,
+                "comments": job.comment,
+            }
+        )
 
-    for a in ALL_CRONS_FILES:
-        print(a)
+def generate_date_time_for_cronjob():
+    pass
 
-
-
-
-
-
-
-
-def parse_crons(file):
-    print(file)
-    # contents = (PATH/CRONS_DIRECTORY/file).read_text()
-    # cron = CronTab(tab="""
-    # # backup job
-    # */5 * * * * /usr/bin/python backup.py # run backup
-    # """)
-
-    # for job in cron:
-    #     print(job.slices)      # cron timing
-    #     print(job.command)     # command
-    #     print(job.comment)     # comment
 
 
 
@@ -65,5 +64,27 @@ def generate_ics_file():
 
 
 
+def save_ics_file():
+    pass
 
-# get_device_file_crons()
+
+
+
+
+
+
+
+
+
+get_device_file_crons()
+
+
+
+# testing
+for cron in ALL_CRONS:
+    print(f"Device: {cron['device']}")
+    print(f"Raw: {cron['raw-cron']}")
+    print(f"Time: {cron['cron-time']}")
+    print(f"Command: {cron['command']}")
+    print(f"Comments: {cron['comments']}")
+    print("\n\n\n")
