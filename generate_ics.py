@@ -1,7 +1,8 @@
 from pathlib import Path
 import os
 from crontab import CronTab
-from datetime import datetime
+from datetime import datetime, timedelta
+from croniter import croniter, croniter_range
 
 
 
@@ -46,13 +47,39 @@ def parse_crons(file, file_contents):
                     "human-time": job.description(),
                     "command": job.command,
                     "comments": job.comment,
+                    # next runs will be generated using generate_next_runs() function
                     "next-runs": [],
+                    "is-allday": False,
                 }
             )
 
 
+# generate all th events of the job
 def generate_next_runs():
-    pass
+    # get the current date, time and the horizon day date time
+    now = datetime.now()
+    horizon = now + timedelta(days=HORIZON_DAYS)
+
+    for job in ALL_CRONS:
+        cron_time = (job["cron-time"])
+
+        # gets the iterator of jobs starting from now
+        cron_iteration = croniter(cron_time, now)
+
+        # get the first and second jobs in datetime and calculate the difference in minutes
+        first_job = cron_iteration.get_next(datetime)
+        second_job = cron_iteration.get_next(datetime)
+        job_interval = (second_job - first_job).total_seconds() / 60
+
+        # if the interval of the job is smaller than threshold - add an all day event in the next-runs in ALL_CRONS,
+        if job_interval < ALLDAY_THRESHOLD_MINUTES:
+            # get all the dates from now, till the horizon
+            job["next-runs"] = [now.date() + timedelta(days=i) for i in range(HORIZON_DAYS)]
+            job["is-allday"] = True
+
+        # # if not under the threshold, create a range of events for the job and add to the ALL_CRONS
+        else:
+            job["next-runs"] = list(croniter_range(now, horizon, job["cron-time"]))
 
 
 
@@ -76,6 +103,7 @@ def save_ics_file():
 
 # MAIN
 get_device_file_crons()
+generate_next_runs()
 
 
 for job in ALL_CRONS:
@@ -85,5 +113,7 @@ for job in ALL_CRONS:
                 # "cron-time", job["cron-time"],
                 # "human time",job["human-time"],
                 "command",job["command"],
-                "comments",job["comments"],
+                # "comments",job["comments"],
+                "next runs",job["next-runs"],
+                print("\n\n\n\n\n\n")
     )
