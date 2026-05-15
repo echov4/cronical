@@ -52,6 +52,14 @@ def parse_crons(file, file_contents):
                 }
             )
 
+# gets the minimum interval between the next 10 runs of the job in minutes
+# does this as using the current time and next is not accurate due to inconsistencies
+def get_min_interval(expression, now):
+    itr = croniter(expression, now)
+    times = [itr.get_next(datetime) for _ in range(10)]
+    intervals = [(times[i+1] - times[i]).total_seconds() / 60 for i in range(len(times)-1)]
+    return min(intervals)
+
 # generate all th events of the job
 def generate_next_runs():
     # get the current date, time and the horizon day date time
@@ -63,14 +71,15 @@ def generate_next_runs():
 
         # gets the iterator of jobs starting from now
         try:
-            cron_iteration = croniter(cron_time, now)
+            job_interval = get_min_interval(cron_time, now)
         except Exception as e:
             print(f"Skipping invalid expression {cron_time}: {e}")
             continue
-        # get the first and second jobs in datetime and calculate the difference in minutes
-        first_job = cron_iteration.get_next(datetime)
-        second_job = cron_iteration.get_next(datetime)
-        job_interval = (second_job - first_job).total_seconds() / 60
+
+        # # get the first and second jobs in datetime and calculate the difference in minutes
+        # first_job = cron_iteration.get_next(datetime)
+        # second_job = cron_iteration.get_next(datetime)
+        # job_interval = (second_job - first_job).total_seconds() / 60
 
         # if the interval of the job is smaller than threshold - add an all day event in the next-runs in ALL_CRONS,
         if job_interval <= ALLDAY_THRESHOLD_MINUTES:
