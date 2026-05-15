@@ -47,6 +47,7 @@ def parse_crons(file, file_contents):
                     "cron-time":str(job.slices),
                     "human-time": job.description(),
                     "command": job.command,
+                    "command-script": get_command_name(job.command),
                     "comments": job.comment,
                     # next runs will be generated using generate_next_runs() function
                     "next-runs": [],
@@ -96,7 +97,7 @@ def generate_ics_file():
         if job["is-allday"]:
             for day in job["next-runs"]:
                 event = Event()
-                event.add("summary", f"{job['device']} - {job['command']} (runs {job['human-time']})")
+                event.add("summary", f"{job['device']} - {job['command-script']} (runs {job['human-time']})")
                 event.add("description", f"Schedule: {job['human-time']}\nCommand: {job['command']}\nComments: {job['comments']}")
                 event.add("dtstart", day)
                 event.add("dtend", day + timedelta(days=1))
@@ -106,31 +107,31 @@ def generate_ics_file():
         else:
             for dt in job["next-runs"]:
                 event = Event()
-                event.add("summary", f"{job['device']} -  {job['command']}")
+                event.add("summary", f"{job['device']} -  {job['command-script']}")
                 event.add("description", f"Schedule: {job['human-time']}\nCommand: {job['command']}\nComments: {job['comments']}")
                 event.add("dtstart", dt)
                 event.add("dtend", dt + timedelta(minutes=1))
                 cal.add_component(event)
-
     return cal
 
 
 
-
+# save the ics file from ALL_CRONS
 def save_ics_file(cal):
     output_path = PATH / "public" / "calendar.ics"
 
     with open(output_path, "wb") as f:
         f.write(cal.to_ical())
-
     print(f"Calendar saved to {output_path}")
 
 
+# remove the path from the command
+def get_command_name(command):
+    commandtrimmed = Path(command).name
+    return commandtrimmed
 
 
-
-
-# MAIN
+# # MAIN
 get_device_file_crons()
 generate_next_runs()
 cal = generate_ics_file()
@@ -138,12 +139,12 @@ save_ics_file(cal)
 
 # for job in ALL_CRONS:
 #     print(
-#         "device", job["device"],
+#         # "device", job["device"],
 #         # "raw-cron", job["raw-cron"],
 #         # "cron-time", job["cron-time"],
 #         # "human time",job["human-time"],
-#         "command",job["command"],
+#         # "command",(job["command"]),
+#         # "command script",(job["command-script"]),
 #         # "comments",job["comments"],
-#         "next runs",job["next-runs"],
-#         print("\n\n\n\n\n\n")
+#         # "next runs",job["next-runs"],
 #     )
