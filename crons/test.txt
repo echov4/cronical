@@ -1,2 +1,0 @@
-# TESTING THE FINAL OUTPUT
-10 1 * * * echo "Hello world"
