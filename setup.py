@@ -43,8 +43,9 @@ def create_cron_folder():
         os.mkdir(PATH/CRONS_DIRECTORY)
         print(f"Created the {CRONS_DIRECTORY}/ directory")
 
+
 # check if public folder if not there, create it
-def check_public_folder():
+def create_public_folder():
     if "public" in os.listdir(PATH):
         print("public/ directory already exists")
     else:
@@ -78,6 +79,7 @@ def create_device_file():
             print(F"- Check if {device_file} is a name for another device")
             print("- If it is a new device, enter in a different name for this device ")
     return device_file, device_name
+
 
 # add the watcher script to the original cronjob for every minute update
 def add_watcher_to_crontab(python_venv_runtime_path):
@@ -116,6 +118,7 @@ def add_original_cronjobs_to_device_file(device_file):
     else:
         print("Error reading cronjobs")
 
+
 # setup the env file if it does not exist
 def setup_env_file(device_file, device_name):
     if not os.path.isfile(PATH / ".env"):
@@ -133,6 +136,7 @@ def setup_env_file(device_file, device_name):
         print(".env file has been created with the variables")
     else:
         print(".env file already exists")
+
 
 # sets the .gitignore file and adds the .env file in there
 def setup_gitignore():

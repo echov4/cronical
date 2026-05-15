@@ -13,7 +13,11 @@
 #
 #--------------------------------------------------
 
+# runs hourly a test
 @hourly python test.py
 
-
+# runs testing weekly
 @weekly echo "testing weekly"
+
+# runs check every minute for a task
+* * * * * running check
