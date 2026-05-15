@@ -13,7 +13,7 @@ ALL_CRONS = []
 # threshold for how many days to create jobs for
 HORIZON_DAYS = 180
 # minimum job length in minutes for it to be an all day event
-ALLDAY_THRESHOLD_MINUTES = 30
+ALLDAY_THRESHOLD_MINUTES = 1440 # 24 hours in minutes
 
 # gets the crons of each file
 def get_device_file_crons():
