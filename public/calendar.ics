@@ -5809,898 +5809,1442 @@ DESCRIPTION:Schedule: Every 30 minutes\, between 09:00 and 17:59\, Monday
  operations
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260515T180000
-DTEND:20260515T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260518T180000
-DTEND:20260518T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260517
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260519T180000
-DTEND:20260519T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260520T180000
-DTEND:20260520T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260519
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260521T180000
-DTEND:20260521T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260520
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260522T180000
-DTEND:20260522T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260520
+DTEND;VALUE=DATE:20260521
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260525T180000
-DTEND:20260525T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260526T180000
-DTEND:20260526T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260527T180000
-DTEND:20260527T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260528T180000
-DTEND:20260528T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260529T180000
-DTEND:20260529T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260601T180000
-DTEND:20260601T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260602T180000
-DTEND:20260602T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260603T180000
-DTEND:20260603T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260604T180000
-DTEND:20260604T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260530
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260605T180000
-DTEND:20260605T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260608T180000
-DTEND:20260608T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260609T180000
-DTEND:20260609T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260610T180000
-DTEND:20260610T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260611T180000
-DTEND:20260611T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260612T180000
-DTEND:20260612T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260615T180000
-DTEND:20260615T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260616T180000
-DTEND:20260616T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260617T180000
-DTEND:20260617T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260618T180000
-DTEND:20260618T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260608
+DTEND;VALUE=DATE:20260609
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260619T180000
-DTEND:20260619T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260610
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260622T180000
-DTEND:20260622T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260623T180000
-DTEND:20260623T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260612
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260624T180000
-DTEND:20260624T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260625T180000
-DTEND:20260625T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260626T180000
-DTEND:20260626T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260629T180000
-DTEND:20260629T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260630T180000
-DTEND:20260630T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260701T180000
-DTEND:20260701T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260702T180000
-DTEND:20260702T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260703T180000
-DTEND:20260703T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260706T180000
-DTEND:20260706T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260707T180000
-DTEND:20260707T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260708T180000
-DTEND:20260708T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260709T180000
-DTEND:20260709T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260710T180000
-DTEND:20260710T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260713T180000
-DTEND:20260713T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260714T180000
-DTEND:20260714T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260715T180000
-DTEND:20260715T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260716T180000
-DTEND:20260716T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260717T180000
-DTEND:20260717T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260720T180000
-DTEND:20260720T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260721T180000
-DTEND:20260721T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260722T180000
-DTEND:20260722T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260723T180000
-DTEND:20260723T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260724T180000
-DTEND:20260724T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260727T180000
-DTEND:20260727T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260728T180000
-DTEND:20260728T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260707
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260729T180000
-DTEND:20260729T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260730T180000
-DTEND:20260730T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260731T180000
-DTEND:20260731T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260803T180000
-DTEND:20260803T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260804T180000
-DTEND:20260804T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260805T180000
-DTEND:20260805T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260806T180000
-DTEND:20260806T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260807T180000
-DTEND:20260807T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260810T180000
-DTEND:20260810T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260811T180000
-DTEND:20260811T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260812T180000
-DTEND:20260812T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260813T180000
-DTEND:20260813T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260814T180000
-DTEND:20260814T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260817T180000
-DTEND:20260817T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260818T180000
-DTEND:20260818T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260819T180000
-DTEND:20260819T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260820T180000
-DTEND:20260820T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260821T180000
-DTEND:20260821T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260824T180000
-DTEND:20260824T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260825T180000
-DTEND:20260825T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260826T180000
-DTEND:20260826T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260827T180000
-DTEND:20260827T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260828T180000
-DTEND:20260828T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260831T180000
-DTEND:20260831T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260901T180000
-DTEND:20260901T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260902T180000
-DTEND:20260902T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260903T180000
-DTEND:20260903T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260904T180000
-DTEND:20260904T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260907T180000
-DTEND:20260907T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260908T180000
-DTEND:20260908T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260909T180000
-DTEND:20260909T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260910T180000
-DTEND:20260910T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260911T180000
-DTEND:20260911T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260914T180000
-DTEND:20260914T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260915T180000
-DTEND:20260915T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260916T180000
-DTEND:20260916T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260917T180000
-DTEND:20260917T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260918T180000
-DTEND:20260918T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260921T180000
-DTEND:20260921T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260922T180000
-DTEND:20260922T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260923T180000
-DTEND:20260923T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260924T180000
-DTEND:20260924T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260925T180000
-DTEND:20260925T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260928T180000
-DTEND:20260928T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260929T180000
-DTEND:20260929T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20260930T180000
-DTEND:20260930T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261001T180000
-DTEND:20261001T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261002T180000
-DTEND:20261002T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261005T180000
-DTEND:20261005T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261006T180000
-DTEND:20261006T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261007T180000
-DTEND:20261007T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261008T180000
-DTEND:20261008T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261009T180000
-DTEND:20261009T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261012T180000
-DTEND:20261012T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261013T180000
-DTEND:20261013T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261014T180000
-DTEND:20261014T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261015T180000
-DTEND:20261015T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261016T180000
-DTEND:20261016T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261019T180000
-DTEND:20261019T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261020T180000
-DTEND:20261020T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261021T180000
-DTEND:20261021T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261022T180000
-DTEND:20261022T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261023T180000
-DTEND:20261023T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261026T180000
-DTEND:20261026T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261027T180000
-DTEND:20261027T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261028T180000
-DTEND:20261028T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261029T180000
-DTEND:20261029T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261030T180000
-DTEND:20261030T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261102T180000
-DTEND:20261102T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261103T180000
-DTEND:20261103T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261104T180000
-DTEND:20261104T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261105T180000
-DTEND:20261105T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261106T180000
-DTEND:20261106T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261109T180000
-DTEND:20261109T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  git-backup-repos.sh
-DTSTART:20261110T180000
-DTEND:20261110T180100
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/git-backup-repos.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - git-backup-repos.sh (runs At 18:00\, Monday through Frida
+ y)
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/git-backup-repos.sh\nComments: 
 END:VEVENT
@@ -9225,1794 +9769,2522 @@ DESCRIPTION:Schedule: Every 5 minutes\nCommand: /home/dev/scripts/monitor-
  disk.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260515T090000
-DTEND:20260515T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260518T090000
-DTEND:20260518T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260517
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260519T090000
-DTEND:20260519T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260520T090000
-DTEND:20260520T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260519
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260521T090000
-DTEND:20260521T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260520
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260522T090000
-DTEND:20260522T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260520
+DTEND;VALUE=DATE:20260521
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260525T090000
-DTEND:20260525T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260526T090000
-DTEND:20260526T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260527T090000
-DTEND:20260527T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260528T090000
-DTEND:20260528T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260529T090000
-DTEND:20260529T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260601T090000
-DTEND:20260601T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260602T090000
-DTEND:20260602T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260603T090000
-DTEND:20260603T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260604T090000
-DTEND:20260604T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260530
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260605T090000
-DTEND:20260605T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260608T090000
-DTEND:20260608T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260609T090000
-DTEND:20260609T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260610T090000
-DTEND:20260610T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260611T090000
-DTEND:20260611T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260612T090000
-DTEND:20260612T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260615T090000
-DTEND:20260615T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260616T090000
-DTEND:20260616T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260617T090000
-DTEND:20260617T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260618T090000
-DTEND:20260618T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260608
+DTEND;VALUE=DATE:20260609
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260619T090000
-DTEND:20260619T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260610
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260622T090000
-DTEND:20260622T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260623T090000
-DTEND:20260623T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260612
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260624T090000
-DTEND:20260624T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260625T090000
-DTEND:20260625T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260626T090000
-DTEND:20260626T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260629T090000
-DTEND:20260629T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260630T090000
-DTEND:20260630T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260701T090000
-DTEND:20260701T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260702T090000
-DTEND:20260702T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260703T090000
-DTEND:20260703T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260706T090000
-DTEND:20260706T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260707T090000
-DTEND:20260707T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260708T090000
-DTEND:20260708T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260709T090000
-DTEND:20260709T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260710T090000
-DTEND:20260710T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260713T090000
-DTEND:20260713T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260714T090000
-DTEND:20260714T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260715T090000
-DTEND:20260715T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260716T090000
-DTEND:20260716T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260717T090000
-DTEND:20260717T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260720T090000
-DTEND:20260720T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260721T090000
-DTEND:20260721T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260722T090000
-DTEND:20260722T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260723T090000
-DTEND:20260723T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260724T090000
-DTEND:20260724T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260727T090000
-DTEND:20260727T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260728T090000
-DTEND:20260728T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260707
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260729T090000
-DTEND:20260729T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260730T090000
-DTEND:20260730T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260731T090000
-DTEND:20260731T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260803T090000
-DTEND:20260803T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260804T090000
-DTEND:20260804T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260805T090000
-DTEND:20260805T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260806T090000
-DTEND:20260806T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260807T090000
-DTEND:20260807T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260810T090000
-DTEND:20260810T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260811T090000
-DTEND:20260811T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260812T090000
-DTEND:20260812T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260813T090000
-DTEND:20260813T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260814T090000
-DTEND:20260814T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260817T090000
-DTEND:20260817T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260818T090000
-DTEND:20260818T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260819T090000
-DTEND:20260819T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260820T090000
-DTEND:20260820T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260821T090000
-DTEND:20260821T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260824T090000
-DTEND:20260824T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260825T090000
-DTEND:20260825T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260826T090000
-DTEND:20260826T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260827T090000
-DTEND:20260827T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260828T090000
-DTEND:20260828T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260831T090000
-DTEND:20260831T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260901T090000
-DTEND:20260901T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260902T090000
-DTEND:20260902T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260903T090000
-DTEND:20260903T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260904T090000
-DTEND:20260904T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260907T090000
-DTEND:20260907T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260908T090000
-DTEND:20260908T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260909T090000
-DTEND:20260909T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260910T090000
-DTEND:20260910T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260911T090000
-DTEND:20260911T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260914T090000
-DTEND:20260914T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260915T090000
-DTEND:20260915T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260916T090000
-DTEND:20260916T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260917T090000
-DTEND:20260917T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260918T090000
-DTEND:20260918T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260921T090000
-DTEND:20260921T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260922T090000
-DTEND:20260922T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260923T090000
-DTEND:20260923T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260924T090000
-DTEND:20260924T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260925T090000
-DTEND:20260925T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260928T090000
-DTEND:20260928T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260929T090000
-DTEND:20260929T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20260930T090000
-DTEND:20260930T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261001T090000
-DTEND:20261001T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261002T090000
-DTEND:20261002T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261005T090000
-DTEND:20261005T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261006T090000
-DTEND:20261006T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261007T090000
-DTEND:20261007T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261008T090000
-DTEND:20261008T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261009T090000
-DTEND:20261009T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261012T090000
-DTEND:20261012T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261013T090000
-DTEND:20261013T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261014T090000
-DTEND:20261014T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261015T090000
-DTEND:20261015T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261016T090000
-DTEND:20261016T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261019T090000
-DTEND:20261019T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261020T090000
-DTEND:20261020T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261021T090000
-DTEND:20261021T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261022T090000
-DTEND:20261022T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261023T090000
-DTEND:20261023T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261026T090000
-DTEND:20261026T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261027T090000
-DTEND:20261027T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261028T090000
-DTEND:20261028T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261029T090000
-DTEND:20261029T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261030T090000
-DTEND:20261030T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261102T090000
-DTEND:20261102T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261103T090000
-DTEND:20261103T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261104T090000
-DTEND:20261104T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261105T090000
-DTEND:20261105T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261106T090000
-DTEND:20261106T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261109T090000
-DTEND:20261109T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  start-dev-env.sh
-DTSTART:20261110T090000
-DTEND:20261110T090100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
 DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
  /scripts/start-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260515T180000
-DTEND:20260515T180100
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - start-dev-env.sh (runs At 09:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+DESCRIPTION:Schedule: At 09:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/start-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260517
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260519
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260519
+DTEND;VALUE=DATE:20260520
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260520
+DTEND;VALUE=DATE:20260521
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260528
+DTEND;VALUE=DATE:20260529
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260530
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260608
+DTEND;VALUE=DATE:20260609
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260610
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260612
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
+ /scripts/stop-dev-env.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260707
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260518T180000
-DTEND:20260518T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260519T180000
-DTEND:20260519T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260520T180000
-DTEND:20260520T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260521T180000
-DTEND:20260521T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260522T180000
-DTEND:20260522T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260525T180000
-DTEND:20260525T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260526T180000
-DTEND:20260526T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260527T180000
-DTEND:20260527T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260528T180000
-DTEND:20260528T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260529T180000
-DTEND:20260529T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260601T180000
-DTEND:20260601T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260602T180000
-DTEND:20260602T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260603T180000
-DTEND:20260603T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260604T180000
-DTEND:20260604T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260605T180000
-DTEND:20260605T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260608T180000
-DTEND:20260608T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260609T180000
-DTEND:20260609T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260610T180000
-DTEND:20260610T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260611T180000
-DTEND:20260611T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260612T180000
-DTEND:20260612T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260615T180000
-DTEND:20260615T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260616T180000
-DTEND:20260616T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260617T180000
-DTEND:20260617T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260618T180000
-DTEND:20260618T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260619T180000
-DTEND:20260619T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260622T180000
-DTEND:20260622T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260623T180000
-DTEND:20260623T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260624T180000
-DTEND:20260624T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260625T180000
-DTEND:20260625T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260626T180000
-DTEND:20260626T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260629T180000
-DTEND:20260629T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260630T180000
-DTEND:20260630T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260701T180000
-DTEND:20260701T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260702T180000
-DTEND:20260702T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260703T180000
-DTEND:20260703T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260706T180000
-DTEND:20260706T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260707T180000
-DTEND:20260707T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260708T180000
-DTEND:20260708T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260709T180000
-DTEND:20260709T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260710T180000
-DTEND:20260710T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260713T180000
-DTEND:20260713T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260714T180000
-DTEND:20260714T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260715T180000
-DTEND:20260715T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260716T180000
-DTEND:20260716T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260717T180000
-DTEND:20260717T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260720T180000
-DTEND:20260720T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260721T180000
-DTEND:20260721T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260722T180000
-DTEND:20260722T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260723T180000
-DTEND:20260723T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260724T180000
-DTEND:20260724T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260727T180000
-DTEND:20260727T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260728T180000
-DTEND:20260728T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260729T180000
-DTEND:20260729T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260730T180000
-DTEND:20260730T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260731T180000
-DTEND:20260731T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260803T180000
-DTEND:20260803T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260804T180000
-DTEND:20260804T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260805T180000
-DTEND:20260805T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260806T180000
-DTEND:20260806T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260807T180000
-DTEND:20260807T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260810T180000
-DTEND:20260810T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260811T180000
-DTEND:20260811T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260812T180000
-DTEND:20260812T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260813T180000
-DTEND:20260813T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260814T180000
-DTEND:20260814T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260817T180000
-DTEND:20260817T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260818T180000
-DTEND:20260818T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260819T180000
-DTEND:20260819T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260820T180000
-DTEND:20260820T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260821T180000
-DTEND:20260821T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260824T180000
-DTEND:20260824T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260825T180000
-DTEND:20260825T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260826T180000
-DTEND:20260826T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260827T180000
-DTEND:20260827T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260828T180000
-DTEND:20260828T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260831T180000
-DTEND:20260831T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260901T180000
-DTEND:20260901T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260902T180000
-DTEND:20260902T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260903T180000
-DTEND:20260903T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260904T180000
-DTEND:20260904T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260907T180000
-DTEND:20260907T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260908T180000
-DTEND:20260908T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260909T180000
-DTEND:20260909T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260910T180000
-DTEND:20260910T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260911T180000
-DTEND:20260911T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260914T180000
-DTEND:20260914T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260915T180000
-DTEND:20260915T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260916T180000
-DTEND:20260916T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260917T180000
-DTEND:20260917T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260918T180000
-DTEND:20260918T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260921T180000
-DTEND:20260921T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260922T180000
-DTEND:20260922T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260923T180000
-DTEND:20260923T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260924T180000
-DTEND:20260924T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260925T180000
-DTEND:20260925T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260928T180000
-DTEND:20260928T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260929T180000
-DTEND:20260929T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20260930T180000
-DTEND:20260930T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261001T180000
-DTEND:20261001T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261002T180000
-DTEND:20261002T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261005T180000
-DTEND:20261005T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261006T180000
-DTEND:20261006T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261007T180000
-DTEND:20261007T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261008T180000
-DTEND:20261008T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261009T180000
-DTEND:20261009T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261012T180000
-DTEND:20261012T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261013T180000
-DTEND:20261013T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261014T180000
-DTEND:20261014T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261015T180000
-DTEND:20261015T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261016T180000
-DTEND:20261016T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261019T180000
-DTEND:20261019T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261020T180000
-DTEND:20261020T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261021T180000
-DTEND:20261021T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261022T180000
-DTEND:20261022T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261023T180000
-DTEND:20261023T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261026T180000
-DTEND:20261026T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261027T180000
-DTEND:20261027T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261028T180000
-DTEND:20261028T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261029T180000
-DTEND:20261029T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261030T180000
-DTEND:20261030T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261102T180000
-DTEND:20261102T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261103T180000
-DTEND:20261103T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261104T180000
-DTEND:20261104T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261105T180000
-DTEND:20261105T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261106T180000
-DTEND:20261106T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261109T180000
-DTEND:20261109T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:sample -  stop-dev-env.sh
-DTSTART:20261110T180000
-DTEND:20261110T180100
+SUMMARY:sample - stop-dev-env.sh (runs At 18:00\, Monday through Friday)
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
 DESCRIPTION:Schedule: At 18:00\, Monday through Friday\nCommand: /home/dev
  /scripts/stop-dev-env.sh\nComments: 
 END:VEVENT
