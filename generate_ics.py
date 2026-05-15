@@ -13,7 +13,7 @@ CRONS_DIRECTORY = "crons"
 ALL_CRONS = []
 
 # threshold for how many days to create jobs for
-HORIZON_DAYS = 90
+HORIZON_DAYS = 180
 # minimum job length in minutes for it to be an all day event
 ALLDAY_THRESHOLD_MINUTES = 30
 
