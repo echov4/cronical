@@ -62,8 +62,11 @@ def generate_next_runs():
         cron_time = (job["cron-time"])
 
         # gets the iterator of jobs starting from now
-        cron_iteration = croniter(cron_time, now)
-
+        try:
+            cron_iteration = croniter(cron_time, now)
+        except Exception as e:
+            print(f"Skipping invalid expression {cron_time}: {e}")
+            continue
         # get the first and second jobs in datetime and calculate the difference in minutes
         first_job = cron_iteration.get_next(datetime)
         second_job = cron_iteration.get_next(datetime)
