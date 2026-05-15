@@ -15,7 +15,7 @@ ALL_CRONS = []
 # threshold for how many days to create jobs for
 HORIZON_DAYS = 90
 # minimum job length in minutes for it to be an all day event
-ALLDAY_THRESHOLD_MINUTES = 10
+ALLDAY_THRESHOLD_MINUTES = 30
 
 
 # gets the crons of each file
