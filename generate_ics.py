@@ -5,8 +5,6 @@ from datetime import datetime, timedelta
 from croniter import croniter, croniter_range
 from icalendar import Calendar, Event
 
-
-
 PATH = Path(__file__).parent
 CRONS_DIRECTORY = "crons"
 # list of  dicts of all cronjobs
@@ -16,7 +14,6 @@ ALL_CRONS = []
 HORIZON_DAYS = 180
 # minimum job length in minutes for it to be an all day event
 ALLDAY_THRESHOLD_MINUTES = 30
-
 
 # gets the crons of each file
 def get_device_file_crons():
@@ -73,7 +70,7 @@ def generate_next_runs():
         job_interval = (second_job - first_job).total_seconds() / 60
 
         # if the interval of the job is smaller than threshold - add an all day event in the next-runs in ALL_CRONS,
-        if job_interval < ALLDAY_THRESHOLD_MINUTES:
+        if job_interval <= ALLDAY_THRESHOLD_MINUTES:
             # get all the dates from now, till the horizon
             job["next-runs"] = [now.date() + timedelta(days=i) for i in range(HORIZON_DAYS)]
             job["is-allday"] = True

@@ -4,12 +4,6 @@ PRODID:-//Cronical//cronical//EN
 X-WR-CALNAME:Cronical
 BEGIN:VEVENT
 SUMMARY:sample -  python test.py
-DTSTART:20260515T080000
-DTEND:20260515T080100
-DESCRIPTION:Schedule: Every hour\nCommand: python test.py\nComments: 
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:sample -  python test.py
 DTSTART:20260515T090000
 DTEND:20260515T090100
 DESCRIPTION:Schedule: Every hour\nCommand: python test.py\nComments: 
@@ -25923,1485 +25917,191 @@ DTEND:20261111T070100
 DESCRIPTION:Schedule: Every hour\nCommand: python test.py\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260515
-DTEND;VALUE=DATE:20260516
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  python test.py
+DTSTART:20261111T080000
+DTEND:20261111T080100
+DESCRIPTION:Schedule: Every hour\nCommand: python test.py\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260516
-DTEND;VALUE=DATE:20260517
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260517T000000
+DTEND:20260517T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260517
-DTEND;VALUE=DATE:20260518
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260524T000000
+DTEND:20260524T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260518
-DTEND;VALUE=DATE:20260519
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260531T000000
+DTEND:20260531T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260519
-DTEND;VALUE=DATE:20260520
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260607T000000
+DTEND:20260607T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260520
-DTEND;VALUE=DATE:20260521
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260614T000000
+DTEND:20260614T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260521
-DTEND;VALUE=DATE:20260522
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260621T000000
+DTEND:20260621T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260522
-DTEND;VALUE=DATE:20260523
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260628T000000
+DTEND:20260628T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260523
-DTEND;VALUE=DATE:20260524
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260705T000000
+DTEND:20260705T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260524
-DTEND;VALUE=DATE:20260525
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260712T000000
+DTEND:20260712T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260525
-DTEND;VALUE=DATE:20260526
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260719T000000
+DTEND:20260719T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260526
-DTEND;VALUE=DATE:20260527
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260726T000000
+DTEND:20260726T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260527
-DTEND;VALUE=DATE:20260528
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260802T000000
+DTEND:20260802T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260528
-DTEND;VALUE=DATE:20260529
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260809T000000
+DTEND:20260809T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260529
-DTEND;VALUE=DATE:20260530
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260816T000000
+DTEND:20260816T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260530
-DTEND;VALUE=DATE:20260531
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260823T000000
+DTEND:20260823T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260531
-DTEND;VALUE=DATE:20260601
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260830T000000
+DTEND:20260830T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260601
-DTEND;VALUE=DATE:20260602
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260906T000000
+DTEND:20260906T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260602
-DTEND;VALUE=DATE:20260603
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260913T000000
+DTEND:20260913T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260603
-DTEND;VALUE=DATE:20260604
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260920T000000
+DTEND:20260920T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260604
-DTEND;VALUE=DATE:20260605
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20260927T000000
+DTEND:20260927T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260605
-DTEND;VALUE=DATE:20260606
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20261004T000000
+DTEND:20261004T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260606
-DTEND;VALUE=DATE:20260607
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20261011T000000
+DTEND:20261011T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260607
-DTEND;VALUE=DATE:20260608
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20261018T000000
+DTEND:20261018T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260608
-DTEND;VALUE=DATE:20260609
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20261025T000000
+DTEND:20261025T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260609
-DTEND;VALUE=DATE:20260610
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260610
-DTEND;VALUE=DATE:20260611
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260611
-DTEND;VALUE=DATE:20260612
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260612
-DTEND;VALUE=DATE:20260613
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260613
-DTEND;VALUE=DATE:20260614
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260614
-DTEND;VALUE=DATE:20260615
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260615
-DTEND;VALUE=DATE:20260616
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260616
-DTEND;VALUE=DATE:20260617
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260617
-DTEND;VALUE=DATE:20260618
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260618
-DTEND;VALUE=DATE:20260619
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260619
-DTEND;VALUE=DATE:20260620
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260620
-DTEND;VALUE=DATE:20260621
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260621
-DTEND;VALUE=DATE:20260622
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260622
-DTEND;VALUE=DATE:20260623
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260623
-DTEND;VALUE=DATE:20260624
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260624
-DTEND;VALUE=DATE:20260625
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260625
-DTEND;VALUE=DATE:20260626
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260626
-DTEND;VALUE=DATE:20260627
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260627
-DTEND;VALUE=DATE:20260628
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260628
-DTEND;VALUE=DATE:20260629
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260629
-DTEND;VALUE=DATE:20260630
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260630
-DTEND;VALUE=DATE:20260701
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260701
-DTEND;VALUE=DATE:20260702
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260702
-DTEND;VALUE=DATE:20260703
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260703
-DTEND;VALUE=DATE:20260704
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260704
-DTEND;VALUE=DATE:20260705
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260705
-DTEND;VALUE=DATE:20260706
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260706
-DTEND;VALUE=DATE:20260707
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260707
-DTEND;VALUE=DATE:20260708
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260708
-DTEND;VALUE=DATE:20260709
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260709
-DTEND;VALUE=DATE:20260710
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260710
-DTEND;VALUE=DATE:20260711
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260711
-DTEND;VALUE=DATE:20260712
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260712
-DTEND;VALUE=DATE:20260713
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260713
-DTEND;VALUE=DATE:20260714
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260714
-DTEND;VALUE=DATE:20260715
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260715
-DTEND;VALUE=DATE:20260716
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260716
-DTEND;VALUE=DATE:20260717
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260717
-DTEND;VALUE=DATE:20260718
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260718
-DTEND;VALUE=DATE:20260719
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260719
-DTEND;VALUE=DATE:20260720
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260720
-DTEND;VALUE=DATE:20260721
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260721
-DTEND;VALUE=DATE:20260722
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260722
-DTEND;VALUE=DATE:20260723
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260723
-DTEND;VALUE=DATE:20260724
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260724
-DTEND;VALUE=DATE:20260725
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260725
-DTEND;VALUE=DATE:20260726
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260726
-DTEND;VALUE=DATE:20260727
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260727
-DTEND;VALUE=DATE:20260728
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260728
-DTEND;VALUE=DATE:20260729
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260730
-DTEND;VALUE=DATE:20260731
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260801
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20260802
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260802
-DTEND;VALUE=DATE:20260803
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260803
-DTEND;VALUE=DATE:20260804
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260804
-DTEND;VALUE=DATE:20260805
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260806
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260806
-DTEND;VALUE=DATE:20260807
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260807
-DTEND;VALUE=DATE:20260808
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260808
-DTEND;VALUE=DATE:20260809
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260809
-DTEND;VALUE=DATE:20260810
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260810
-DTEND;VALUE=DATE:20260811
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260811
-DTEND;VALUE=DATE:20260812
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260812
-DTEND;VALUE=DATE:20260813
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260815
-DTEND;VALUE=DATE:20260816
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260816
-DTEND;VALUE=DATE:20260817
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260818
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260818
-DTEND;VALUE=DATE:20260819
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260820
-DTEND;VALUE=DATE:20260821
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260822
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260822
-DTEND;VALUE=DATE:20260823
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260823
-DTEND;VALUE=DATE:20260824
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260824
-DTEND;VALUE=DATE:20260825
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260825
-DTEND;VALUE=DATE:20260826
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260826
-DTEND;VALUE=DATE:20260827
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260827
-DTEND;VALUE=DATE:20260828
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260829
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260829
-DTEND;VALUE=DATE:20260830
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260830
-DTEND;VALUE=DATE:20260831
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260831
-DTEND;VALUE=DATE:20260901
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260902
-DTEND;VALUE=DATE:20260903
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260906
-DTEND;VALUE=DATE:20260907
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260908
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260908
-DTEND;VALUE=DATE:20260909
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260909
-DTEND;VALUE=DATE:20260910
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260910
-DTEND;VALUE=DATE:20260911
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260911
-DTEND;VALUE=DATE:20260912
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260913
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260913
-DTEND;VALUE=DATE:20260914
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260915
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260919
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260919
-DTEND;VALUE=DATE:20260920
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260922
-DTEND;VALUE=DATE:20260923
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260924
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260927
-DTEND;VALUE=DATE:20260928
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20260929
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261004
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261004
-DTEND;VALUE=DATE:20261005
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261007
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261010
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261013
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261109
-DTEND;VALUE=DATE:20261110
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test - cron-watcher.py (runs Every minute)
-DTSTART;VALUE=DATE:20261110
-DTEND;VALUE=DATE:20261111
-DESCRIPTION:Schedule: Every minute\nCommand: /home/linux/git/github/cronic
- al/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py\nComme
- nts: cronical-watcher
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test -  echo "SAMPLE TEST"
-DTSTART:20260601T000000
-DTEND:20260601T000100
-DESCRIPTION:Schedule: At 00:00\, on day 1 of the month\nCommand: echo "SAM
- PLE TEST"\nComments: Testing the monthly 1st event
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test -  echo "SAMPLE TEST"
-DTSTART:20260701T000000
-DTEND:20260701T000100
-DESCRIPTION:Schedule: At 00:00\, on day 1 of the month\nCommand: echo "SAM
- PLE TEST"\nComments: Testing the monthly 1st event
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test -  echo "SAMPLE TEST"
-DTSTART:20260801T000000
-DTEND:20260801T000100
-DESCRIPTION:Schedule: At 00:00\, on day 1 of the month\nCommand: echo "SAM
- PLE TEST"\nComments: Testing the monthly 1st event
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test -  echo "SAMPLE TEST"
-DTSTART:20260901T000000
-DTEND:20260901T000100
-DESCRIPTION:Schedule: At 00:00\, on day 1 of the month\nCommand: echo "SAM
- PLE TEST"\nComments: Testing the monthly 1st event
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test -  echo "SAMPLE TEST"
-DTSTART:20261001T000000
-DTEND:20261001T000100
-DESCRIPTION:Schedule: At 00:00\, on day 1 of the month\nCommand: echo "SAM
- PLE TEST"\nComments: Testing the monthly 1st event
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:test -  echo "SAMPLE TEST"
+SUMMARY:sample -  echo "testing weekly"
 DTSTART:20261101T000000
 DTEND:20261101T000100
-DESCRIPTION:Schedule: At 00:00\, on day 1 of the month\nCommand: echo "SAM
- PLE TEST"\nComments: Testing the monthly 1st event
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:sample -  echo "testing weekly"
+DTSTART:20261108T000000
+DTEND:20261108T000100
+DESCRIPTION:Schedule: At 00:00\, only on Sunday\nCommand: echo "testing we
+ ekly"\nComments: 
 END:VEVENT
 END:VCALENDAR
