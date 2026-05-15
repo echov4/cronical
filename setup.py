@@ -43,6 +43,15 @@ def create_cron_folder():
         os.mkdir(PATH/CRONS_DIRECTORY)
         print(f"Created the {CRONS_DIRECTORY}/ directory")
 
+# check if public folder if not there, create it
+def check_public_folder():
+    if "public" in os.listdir(PATH):
+        print("public/ directory already exists")
+    else:
+        os.mkdir(PATH / "public")
+        print("Created public/ directory")
+
+
 
 # Get the device name and check if it already exists as a file in /crons, if not then create it
 # returns the device name in string, and device file path
@@ -156,6 +165,7 @@ def setup_gitignore():
 # MAIN
 python_venv_runtime_path = checkup_and_set_environment()
 create_cron_folder()
+create_public_folder()
 device_file, device_name = create_device_file()
 add_watcher_to_crontab(python_venv_runtime_path)
 add_original_cronjobs_to_device_file(device_file)
