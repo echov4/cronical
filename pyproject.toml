@@ -7,6 +7,7 @@ requires-python = ">=3.14"
 dependencies = [
     "cron-descriptor>=2.0.8",
     "croniter>=6.2.2",
+    "icalendar>=7.1.0",
     "python-crontab>=3.3.0",
     "python-dotenv>=1.2.2",
 ]
