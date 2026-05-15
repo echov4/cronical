@@ -3,6 +3,7 @@ import os
 from crontab import CronTab
 from datetime import datetime, timedelta
 from croniter import croniter, croniter_range
+from icalendar import Calendar, Event
 
 
 
@@ -53,7 +54,6 @@ def parse_crons(file, file_contents):
                 }
             )
 
-
 # generate all th events of the job
 def generate_next_runs():
     # get the current date, time and the horizon day date time
@@ -82,19 +82,48 @@ def generate_next_runs():
             job["next-runs"] = list(croniter_range(now, horizon, job["cron-time"]))
 
 
-
+# using ALL_CRONS, generate the ics file
 def generate_ics_file():
-    pass
+    # create a icalendar object and preamble
+    cal = Calendar()
+    cal.add("prodid", "-//Cronical//cronical//EN")
+    cal.add("version", "2.0")
+    cal.add("X-WR-CALNAME", "Cronical")
+
+    # read the contents of all crons
+    for job in ALL_CRONS:
+        # if all day -> make it an all day events
+        if job["is-allday"]:
+            for day in job["next-runs"]:
+                event = Event()
+                event.add("summary", f"{job['device']} - {job['command']} (runs {job['human-time']})")
+                event.add("description", f"Schedule: {job['human-time']}\nCommand: {job['command']}\nComments: {job['comments']}")
+                event.add("dtstart", day)
+                event.add("dtend", day + timedelta(days=1))
+                cal.add_component(event)
+
+        # if not all day -> make individual events
+        else:
+            for dt in job["next-runs"]:
+                event = Event()
+                event.add("summary", f"{job['device']} -  {job['command']}")
+                event.add("description", f"Schedule: {job['human-time']}\nCommand: {job['command']}\nComments: {job['comments']}")
+                event.add("dtstart", dt)
+                event.add("dtend", dt + timedelta(minutes=1))
+                cal.add_component(event)
+
+    return cal
 
 
 
-def save_ics_file():
-    pass
 
+def save_ics_file(cal):
+    output_path = PATH / "public" / "calendar.ics"
 
+    with open(output_path, "wb") as f:
+        f.write(cal.to_ical())
 
-
-
+    print(f"Calendar saved to {output_path}")
 
 
 
@@ -104,16 +133,17 @@ def save_ics_file():
 # MAIN
 get_device_file_crons()
 generate_next_runs()
+cal = generate_ics_file()
+save_ics_file(cal)
 
-
-for job in ALL_CRONS:
-    print(
-                "device", job["device"],
-                # "raw-cron", job["raw-cron"],
-                # "cron-time", job["cron-time"],
-                # "human time",job["human-time"],
-                "command",job["command"],
-                # "comments",job["comments"],
-                "next runs",job["next-runs"],
-                print("\n\n\n\n\n\n")
-    )
+# for job in ALL_CRONS:
+#     print(
+#         "device", job["device"],
+#         # "raw-cron", job["raw-cron"],
+#         # "cron-time", job["cron-time"],
+#         # "human time",job["human-time"],
+#         "command",job["command"],
+#         # "comments",job["comments"],
+#         "next runs",job["next-runs"],
+#         print("\n\n\n\n\n\n")
+#     )
