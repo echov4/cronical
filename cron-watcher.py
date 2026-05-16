@@ -21,7 +21,7 @@ REMOTE_URL = f"https://{GITHUB_PAT}@github.com/{GITHUB_USER}/{GITHUB_REPO_NAME}.
 
 
 # setup logging with 1MB limit and keep 3 backups
-RotatingFileHandler(
+rotating_handler = RotatingFileHandler(
     PATH / "logs" / "cronical.log",
     maxBytes=1_000_000,
     backupCount=3
@@ -33,7 +33,7 @@ logging.basicConfig(
     format="[%(asctime)s] [%(name)s]: %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
     handlers=[
-        logging.FileHandler(PATH / "logs" / "cronical.log"),
+        rotating_handler,
         logging.StreamHandler()
     ]
 )
