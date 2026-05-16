@@ -88,6 +88,7 @@ def generate_next_runs():
         # get the occurrences of the cron job between now and the horizon using croniter_range
         try:
             occurrences = list(croniter_range(now, horizon, cron_time))
+            logger.info(f"Generated {len(occurrences)} occurrences for cron job '{job['command-script']}' with schedule '{job['human-time']}'")
         except Exception as e:
             logger.warning(f"Skipping invalid expression {cron_time}: {e}")
             continue
