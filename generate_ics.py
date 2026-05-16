@@ -139,7 +139,7 @@ def generate_ics_file():
                 event.add("dtstart", dt)
                 event.add("dtend", dt + timedelta(minutes=1))
                 cal.add_component(event)
-    logger.info(f"Generated calendar with {len(cal.subcomponents)} events from {len(ALL_CRONS)} cron jobs")
+    logger.info(f"Generated calendar with {len(cal.subcomponents)} events from {len(ALL_CRONS)} cron jobs for {HORIZON_DAYS} days")
     return cal
 
 
