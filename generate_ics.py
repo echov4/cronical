@@ -52,13 +52,18 @@ def parse_crons(file, file_contents):
                 }
             )
 
-# gets the minimum interval between the next 10 runs of the job in minutes
-# does this as using the current time and next is not accurate due to inconsistencies
-def get_min_interval(expression, now):
-    itr = croniter(expression, now)
-    times = [itr.get_next(datetime) for _ in range(10)]
-    intervals = [(times[i+1] - times[i]).total_seconds() / 60 for i in range(len(times)-1)]
-    return min(intervals)
+def get_max_gap(expression, now):
+    two_weeks = now + timedelta(weeks=2)
+    occurrences = list(croniter_range(now, two_weeks, expression))
+
+    # if less than 2 occurrences, job does not run multiple times daily
+    if len(occurrences) < 2:
+        return float("inf")
+
+    # calculate max gap between consecutive occurrences in minutes
+    gaps = [(occurrences[i+1] - occurrences[i]).total_seconds() / 60 for i in range(len(occurrences)-1)]
+    return max(gaps)
+
 
 # generate all th events of the job
 def generate_next_runs():
@@ -71,18 +76,13 @@ def generate_next_runs():
 
         # gets the iterator of jobs starting from now
         try:
-            job_interval = get_min_interval(cron_time, now)
+            job_interval = get_max_gap(cron_time, now)
         except Exception as e:
             print(f"Skipping invalid expression {cron_time}: {e}")
             continue
 
-        # # get the first and second jobs in datetime and calculate the difference in minutes
-        # first_job = cron_iteration.get_next(datetime)
-        # second_job = cron_iteration.get_next(datetime)
-        # job_interval = (second_job - first_job).total_seconds() / 60
-
         # if the interval of the job is smaller than threshold - add an all day event in the next-runs in ALL_CRONS,
-        if job_interval <= ALLDAY_THRESHOLD_MINUTES:
+        if job_interval < ALLDAY_THRESHOLD_MINUTES:
             # get all the dates from now, till the horizon
             job["next-runs"] = [now.date() + timedelta(days=i) for i in range(HORIZON_DAYS)]
             job["is-allday"] = True
@@ -136,8 +136,8 @@ def save_ics_file(cal):
 
 # remove the path from the command
 def get_command_name(command):
-    commandtrimmed = Path(command).name
-    return commandtrimmed
+    command_trimmed = Path(command).name
+    return command_trimmed
 
 
 # # MAIN
