@@ -29,9 +29,6 @@ logging.basicConfig(
 
 logger = logging.getLogger("generate-ics")
 
-
-
-
 CRONS_DIRECTORY = "crons"
 # list of  dicts of all cronjobs
 ALL_CRONS = []
@@ -47,7 +44,7 @@ def get_device_file_crons():
 
     # check if at least one file exists
     if len(all_device_files) == 0:
-        logger.error("Error: no device files, need to set it up")
+        logger.error("ERROR: no device files, need to set it up")
         exit(1)
 
     # get all the contents of the files and parse them and save them to ALL_CRONS
