@@ -26,7 +26,7 @@ def check_env_variables():
 
 def git_pull():
     result = subprocess.run(
-        ["git", "-C", str(PATH), "pull", "--rebase", REMOTE_URL],
+        ["git", "-C", str(PATH), "pull", "--rebase", REMOTE_URL, "main"],
         capture_output=True,
         text=True
     )
@@ -62,7 +62,7 @@ def git_commit():
 
 def git_push():
     result = subprocess.run(
-        ["git",  "-C", str(PATH), "push", REMOTE_URL],
+        ["git", "-C", str(PATH), "push", REMOTE_URL, "main"],
         capture_output=True,
         text=True
     )
