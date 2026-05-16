@@ -11,7 +11,7 @@ CRONS_DIRECTORY = "crons"
 ALL_CRONS = []
 
 # threshold for how many days to create jobs for
-HORIZON_DAYS = 180
+HORIZON_DAYS = 365
 # minimum job length in minutes for it to be an all day event
 ALLDAY_THRESHOLD_MINUTES = 1440 # 24 hours in minutes
 
@@ -52,8 +52,23 @@ def parse_crons(file, file_contents):
                 }
             )
 
-# gets the biggest gap between consecutive runs of the job in minutes, by looking at the next 2 weeks of runs
-def get_max_gap(cron_time, now):
+# # gets the biggest gap between consecutive runs of the job in minutes, by looking at the next 2 weeks of runs
+# def get_max_gap(cron_time, now):
+#     two_weeks = now + timedelta(weeks=2)
+#     occurrences = list(croniter_range(now, two_weeks, cron_time))
+
+#     # if less than 2 occurrences, job does not run multiple times daily return infinity
+#     if len(occurrences) < 2:
+#         return float("inf")
+
+#     # calculate max gap between consecutive occurrences in minutes
+#     gaps = [(occurrences[i+1] - occurrences[i]).total_seconds() / 60 for i in range(len(occurrences)-1)]
+#     return max(gaps)
+
+
+# gets the smallest gap between consecutive runs of the job in minutes, by looking at the next 2 weeks of runs
+# if min gap is less than 24 hours, the job runs multiple times on its active days
+def get_min_gap(cron_time, now):
     two_weeks = now + timedelta(weeks=2)
     occurrences = list(croniter_range(now, two_weeks, cron_time))
 
@@ -61,10 +76,9 @@ def get_max_gap(cron_time, now):
     if len(occurrences) < 2:
         return float("inf")
 
-    # calculate max gap between consecutive occurrences in minutes
+    # calculate min gap between consecutive occurrences in minutes
     gaps = [(occurrences[i+1] - occurrences[i]).total_seconds() / 60 for i in range(len(occurrences)-1)]
-    return max(gaps)
-
+    return min(gaps)
 
 # generate all th events of the job
 def generate_next_runs():
@@ -77,7 +91,7 @@ def generate_next_runs():
 
         # gets the iterator of jobs starting from now
         try:
-            job_interval = get_max_gap(cron_time, now)
+            job_interval = get_min_gap(cron_time, now)
         except Exception as e:
             print(f"Skipping invalid expression {cron_time}: {e}")
             continue
