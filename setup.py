@@ -38,7 +38,6 @@ logging.basicConfig(
 logger = logging.getLogger("setup")
 
 
-
 # checks to see if git is installed, and the .venv exists
 def checkup_and_set_environment():
     # check if git is installed
@@ -50,7 +49,7 @@ def checkup_and_set_environment():
 
     # make a .venv folder
     if ".venv" not in os.listdir(PATH):
-        logger.warning(".venv does not exist, run `uv sync`")
+        logger.error("ERROR: .venv does not exist, run `uv sync`")
         exit(1)
     else:
         logger.info(".venv is already created")
@@ -78,6 +77,7 @@ def create_public_folder():
     else:
         os.mkdir(PATH / "public")
         logger.info("Created public/ directory")
+
 
 # check if logs folder if not there, create it
 def create_logs_folder():
@@ -109,9 +109,9 @@ def create_device_file():
             break
         except FileExistsError:
             logger.error("ERROR: Device file already exists")
-            logger.info(f"- Check if {device_file} already exists and added already")
-            logger.info(f"- Check if {device_file} is a name for another device")
-            logger.info("- If it is a new device, enter in a different name for this device ")
+            logger.error(f"- Check if {device_file} already exists and added already")
+            logger.error(f"- Check if {device_file} is a name for another device")
+            logger.error("- If it is a new device, enter in a different name for this device ")
     return device_file, device_name
 
 
@@ -132,9 +132,9 @@ def add_watcher_to_crontab(python_venv_runtime_path):
         job.minute.every(1)
         job.set_comment("cronical-watcher")
         cron.write()
-        logger.info("Added the watcher script command in the original cronjob, the command:\n" + watcher_command)
+        logger.info("cron-watcher.py script command added in the original cronjob, the command:\n" + watcher_command)
     else:
-        logger.info("Watcher file command is already in the original cronjob")
+        logger.info("cron-watcher.py file command is already in the original cronjob")
 
 # append the newly created device file with all the contents of all the original cronjobs
 def add_original_cronjobs_to_device_file(device_file):
@@ -150,27 +150,25 @@ def add_original_cronjobs_to_device_file(device_file):
         with open(device_file, "w") as f:
             f.write(original_cronjobs.stdout)
     else:
-        logger.error("Error reading cronjobs")
+        logger.error("ERROR: cannot read cronjobs")
 
 
 # setup the env file if it does not exist
 def setup_env_file(device_file, device_name):
-    if not os.path.isfile(PATH / ".env"):
-        github_user = input("Enter in your github username (case sensitive)\t")
-        github_repo_name = input("Enter in the repo of the github (case sensitive)\t")
-        github_pat = input("Enter in your github PAT code\t")
+    github_user = input("Enter in your github username (case sensitive)\t")
+    github_repo_name = input("Enter in the repo of the github (case sensitive)\t")
+    github_pat = input("Enter in your github PAT code\t")
 
+    if not os.path.isfile(PATH / ".env"):
+        logger.info(".env file has been created with the values")
+    else:
+        logger.info(".env file already exists, and will be overwritten with the new values")
         with open(PATH / ".env", "w") as f:
             f.writelines(f"DEVICE_NAME={device_name}\n")
             f.writelines(f"DEVICE_PATH={device_file}\n")
             f.writelines(f"GITHUB_PAT={github_pat}\n")
             f.writelines(f"GITHUB_USER={github_user}\n")
             f.writelines(f"GITHUB_REPO_NAME={github_repo_name}\n")
-
-        logger.info(".env file has been created with the variables")
-    else:
-        logger.info(".env file already exists")
-
 
 # sets the .gitignore file and adds the .env file in there
 def setup_gitignore():
@@ -180,7 +178,7 @@ def setup_gitignore():
         gitignore.open("w").close()
         logger.info("Creating a .gitignore file")
     else:
-        logger.info("gitignore file already exists")
+        logger.info(".gitignore file already exists")
 
     # check if .env file is in the gitignore
     if ".env" not in gitignore.read_text():
@@ -190,7 +188,7 @@ def setup_gitignore():
     else:
         logger.info(".env already in .gitignore")
 
-    # cheec if .venv/ folder is in gitignore
+    # check if .venv/ folder is in gitignore
     if ".venv/" not in gitignore.read_text():
         with open(gitignore, "a") as f:
             f.write(".venv/\n")
@@ -210,4 +208,4 @@ add_watcher_to_crontab(python_venv_runtime_path)
 add_original_cronjobs_to_device_file(device_file)
 setup_env_file(device_file, device_name)
 setup_gitignore()
-print("SETUP COMPLETED")
+logger.info("Setup completed")
