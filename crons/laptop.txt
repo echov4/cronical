@@ -1,4 +1,6 @@
 #  Multiple times a day
+0 * * * * joba.sh && jobb.sh && jobc.sh && jobd.sh
+
 # runs every 6 hours
 0 */6 * * * /path/to/script.sh && /path/to/script/task-run.sh
 
