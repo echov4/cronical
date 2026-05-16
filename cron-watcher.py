@@ -4,6 +4,10 @@ from crontab import CronTab
 from dotenv import load_dotenv
 from pathlib import Path
 
+from datetime import datetime
+import logging
+from logging.handlers import RotatingFileHandler
+
 PATH = Path(__file__).parent
 # load the .env file
 load_dotenv(PATH / ".env")
@@ -15,13 +19,36 @@ GITHUB_REPO_NAME = os.getenv("GITHUB_REPO_NAME")
 GITHUB_USER = os.getenv("GITHUB_USER")
 REMOTE_URL = f"https://{GITHUB_PAT}@github.com/{GITHUB_USER}/{GITHUB_REPO_NAME}.git"
 
+
+# setup logging with 1MB limit and keep 3 backups
+RotatingFileHandler(
+    PATH / "logs" / "cronical.log",
+    maxBytes=1_000_000,
+    backupCount=3
+)
+
+# configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="[%(asctime)s] [%(name)s]: %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+    handlers=[
+        logging.FileHandler(PATH / "logs" / "cronical.log"),
+        logging.StreamHandler()
+    ]
+)
+
+logger = logging.getLogger("cron-watcher")
+
+
+
 # gets the crontabs of the current user only
 cron = CronTab(user=True)
 
 
 def check_env_variables():
     if not all([DEVICE_NAME, DEVICE_FILE_PATH, GITHUB_PAT, GITHUB_REPO_NAME, GITHUB_USER]):
-        print("Error: missing required .env variables, run setup.py first or fill it in")
+        logger.error("Error: missing required .env variables, run setup.py first or fill it in")
         exit(1)
 
 def git_pull():
@@ -31,10 +58,10 @@ def git_pull():
         text=True
     )
     if result.returncode != 0:
-        print(f"Error pulling: {result.stderr}")
-        print(f"{result.stdout}")
+        logger.error(f"Error pulling: {result.stderr}")
+        logger.info(f"Output: {result.stdout}")
         exit(1)
-    print("Repo pulled")
+    logger.info("Repo pulled")
 
 def git_add():
     result = subprocess.run(
@@ -43,10 +70,10 @@ def git_add():
         text=True
     )
     if result.returncode != 0:
-        print(f"Error adding: {result.stderr}")
-        print(f"{result.stdout}")
+        logger.error(f"Error adding: {result.stderr}")
+        logger.info(f"Output: {result.stdout}")
         exit(1)
-    print("Repo added")
+    logger.info("Repo added")
 
 def git_commit():
     result = subprocess.run(
@@ -55,10 +82,10 @@ def git_commit():
         text=True
     )
     if result.returncode != 0:
-        print(f"Error committing: {result.stderr}")
-        print(f"{result.stdout}")
+        logger.error(f"Error committing: {result.stderr}")
+        logger.info(f"Output: {result.stdout}")
         exit(1)
-    print(f"Repo committed")
+    logger.info(f"Repo committed")
 
 def git_push():
     result = subprocess.run(
@@ -67,10 +94,10 @@ def git_push():
         text=True
     )
     if result.returncode != 0:
-        print(f"Error pushing: {result.stderr}")
-        print(f"{result.stdout}")
+        logger.error(f"Error pushing: {result.stderr}")
+        logger.info(f"Output: {result.stdout}")
         exit(1)
-    print("Repo pushed")
+    logger.info("Repo pushed")
 
 
 def get_original_cronjobs():
@@ -83,7 +110,7 @@ def get_original_cronjobs():
     if original_cronjobs.returncode == 0:
         return original_cronjobs
     else:
-        print("Error: could not read crontab")
+        logger.error("Error: could not read crontab")
         exit(1)
 
 # monitors the string output of the cronjobs compared to the device file
@@ -108,11 +135,11 @@ def update_device_file(original_cronjobs):
 check_env_variables()
 original_cronjobs = get_original_cronjobs()
 if monitor_cron_changes(original_cronjobs):
-    print("different")
+    logger.info("Cron jobs have changed, syncing...")
     update_device_file(original_cronjobs)
     git_add()
     git_commit()
     git_pull()
     git_push()
 else:
-    print("same")
+    print("No changes in cron jobs")
