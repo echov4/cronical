@@ -8396,6 +8396,13 @@ DESCRIPTION:Schedule: At 02:30\, only on Sunday\nCommand: /home/dev/script
  s/backup-home.sh\nComments: 
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:sample -  backup-home.sh
+DTSTART:20270516T023000
+DTEND:20270516T023100
+DESCRIPTION:Schedule: At 02:30\, only on Sunday\nCommand: /home/dev/script
+ s/backup-home.sh\nComments: 
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:sample -  backup-projects.sh
 DTSTART:20260601T010000
 DTEND:20260601T010100

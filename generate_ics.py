@@ -15,6 +15,7 @@ HORIZON_DAYS = 365
 # minimum job length in minutes for it to be an all day event
 ALLDAY_THRESHOLD_MINUTES = 1440 # 24 hours in minutes
 
+
 # gets the crons of each file
 def get_device_file_crons():
     # get all the files
@@ -25,7 +26,7 @@ def get_device_file_crons():
         print("Error: no device files, need to set it up")
         exit(1)
 
-    # get all the contents of the files and parse them
+    # get all the contents of the files and parse them and save them to ALL_CRONS
     for file in all_device_files:
         file_contents = ((PATH/CRONS_DIRECTORY/file).read_text())
         parse_crons(file, file_contents)
@@ -52,66 +53,28 @@ def parse_crons(file, file_contents):
                 }
             )
 
-# # gets the biggest gap between consecutive runs of the job in minutes, by looking at the next 2 weeks of runs
-# def get_max_gap(cron_time, now):
-#     two_weeks = now + timedelta(weeks=2)
-#     occurrences = list(croniter_range(now, two_weeks, cron_time))
 
-#     # if less than 2 occurrences, job does not run multiple times daily return infinity
-#     if len(occurrences) < 2:
-#         return float("inf")
-
-#     # calculate max gap between consecutive occurrences in minutes
-#     gaps = [(occurrences[i+1] - occurrences[i]).total_seconds() / 60 for i in range(len(occurrences)-1)]
-#     return max(gaps)
-
-
-# gets the smallest gap between consecutive runs of the job in minutes, by looking at the next 2 weeks of runs
-# if min gap is less than 24 hours, the job runs multiple times on its active days
-def get_min_gap(cron_time, now):
-    two_weeks = now + timedelta(weeks=2)
-    occurrences = list(croniter_range(now, two_weeks, cron_time))
-
-    # if less than 2 occurrences, job does not run multiple times daily return infinity
-    if len(occurrences) < 2:
-        return float("inf")
-
-    # calculate min gap between consecutive occurrences in minutes
-    gaps = [(occurrences[i+1] - occurrences[i]).total_seconds() / 60 for i in range(len(occurrences)-1)]
-    return min(gaps)
-
-# generate all th events of the job
 def generate_next_runs():
-    # get the current date, time and the horizon day date time
     now = datetime.now()
     horizon = now + timedelta(days=HORIZON_DAYS)
 
     for job in ALL_CRONS:
-        cron_time = (job["cron-time"])
+        cron_time = job["cron-time"]
 
-        # gets the iterator of jobs starting from now
         try:
-            job_interval = get_min_gap(cron_time, now)
+            occurrences = list(croniter_range(now, horizon, cron_time))
         except Exception as e:
             print(f"Skipping invalid expression {cron_time}: {e}")
             continue
 
-        if job_interval < ALLDAY_THRESHOLD_MINUTES:
-            occurrences = list(croniter_range(now, horizon, cron_time))
-            job["next-runs"] = sorted(set(dt.date() for dt in occurrences))
+        dates = [dt.date() for dt in occurrences]
+
+        # if any date appears more than once, job runs multiple times that day
+        if len(dates) != len(set(dates)):
+            job["next-runs"] = sorted(set(dates))
             job["is-allday"] = True
         else:
-            job["next-runs"] = list(croniter_range(now, horizon, cron_time))
-
-        # # if the interval of the job is smaller than threshold - add an all day event in the next-runs in ALL_CRONS,
-        # if job_interval < ALLDAY_THRESHOLD_MINUTES:
-        #     # get all the dates from now, till the horizon
-        #     job["next-runs"] = [now.date() + timedelta(days=i) for i in range(HORIZON_DAYS)]
-        #     job["is-allday"] = True
-
-        # # # if not under the threshold, create a range of events for the job and add to the ALL_CRONS
-        # else:
-        #     job["next-runs"] = list(croniter_range(now, horizon, job["cron-time"]))
+            job["next-runs"] = occurrences
 
 
 # using ALL_CRONS, generate the ics file
@@ -146,7 +109,6 @@ def generate_ics_file():
     return cal
 
 
-
 # save the ics file from ALL_CRONS
 def save_ics_file(cal):
     output_path = PATH / "public" / "calendar.ics"
@@ -156,7 +118,7 @@ def save_ics_file(cal):
     print(f"Calendar saved to {output_path}")
 
 
-# remove the path from the command
+# remove the path from the command for clarity
 def get_command_name(command):
     command_trimmed = Path(command).name
     return command_trimmed
@@ -167,15 +129,3 @@ get_device_file_crons()
 generate_next_runs()
 cal = generate_ics_file()
 save_ics_file(cal)
-
-# for job in ALL_CRONS:
-#     print(
-#         # "device", job["device"],
-#         # "raw-cron", job["raw-cron"],
-#         # "cron-time", job["cron-time"],
-#         # "human time",job["human-time"],
-#         # "command",(job["command"]),
-#         # "command script",(job["command-script"]),
-#         # "comments",job["comments"],
-#         # "next runs",job["next-runs"],
-#     )
