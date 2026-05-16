@@ -1,4 +1,4 @@
-# 1) Multiple times a day
+#  Multiple times a day
 # runs every 6 hours
 0 */6 * * * /path/to/script.sh
 
