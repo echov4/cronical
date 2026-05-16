@@ -96,15 +96,22 @@ def generate_next_runs():
             print(f"Skipping invalid expression {cron_time}: {e}")
             continue
 
-        # if the interval of the job is smaller than threshold - add an all day event in the next-runs in ALL_CRONS,
         if job_interval < ALLDAY_THRESHOLD_MINUTES:
-            # get all the dates from now, till the horizon
-            job["next-runs"] = [now.date() + timedelta(days=i) for i in range(HORIZON_DAYS)]
+            occurrences = list(croniter_range(now, horizon, cron_time))
+            job["next-runs"] = sorted(set(dt.date() for dt in occurrences))
             job["is-allday"] = True
-
-        # # if not under the threshold, create a range of events for the job and add to the ALL_CRONS
         else:
-            job["next-runs"] = list(croniter_range(now, horizon, job["cron-time"]))
+            job["next-runs"] = list(croniter_range(now, horizon, cron_time))
+
+        # # if the interval of the job is smaller than threshold - add an all day event in the next-runs in ALL_CRONS,
+        # if job_interval < ALLDAY_THRESHOLD_MINUTES:
+        #     # get all the dates from now, till the horizon
+        #     job["next-runs"] = [now.date() + timedelta(days=i) for i in range(HORIZON_DAYS)]
+        #     job["is-allday"] = True
+
+        # # # if not under the threshold, create a range of events for the job and add to the ALL_CRONS
+        # else:
+        #     job["next-runs"] = list(croniter_range(now, horizon, job["cron-time"]))
 
 
 # using ALL_CRONS, generate the ics file
