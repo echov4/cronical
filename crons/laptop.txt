@@ -1,5 +1,8 @@
-#  Multiple times a day
-0 * * * * joba.sh && jobb.sh && jobc.sh && jobd.sh
+#first test
+* * * * * test1.sh && test2.sh
+
+# another test
+* * * * * sample1.sh ; sample2.sh
 
 # runs every 6 hours
 0 */6 * * * /path/to/script.sh && /path/to/script/task-run.sh
