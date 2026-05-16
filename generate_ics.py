@@ -5,7 +5,33 @@ from datetime import datetime, timedelta
 from croniter import croniter, croniter_range
 from icalendar import Calendar, Event
 
+import logging
+from logging.handlers import RotatingFileHandler
+
 PATH = Path(__file__).parent
+# setup logging with 1MB limit and keep 3 backups
+RotatingFileHandler(
+    PATH / "logs" / "cronical.log",
+    maxBytes=1_000_000,
+    backupCount=3
+)
+
+# configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="[%(asctime)s] [%(name)s]: %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+    handlers=[
+        logging.FileHandler(PATH / "logs" / "cronical.log"),
+        logging.StreamHandler()
+    ]
+)
+
+logger = logging.getLogger("cron-watcher")
+
+
+
+
 CRONS_DIRECTORY = "crons"
 # list of  dicts of all cronjobs
 ALL_CRONS = []
@@ -21,13 +47,14 @@ def get_device_file_crons():
 
     # check if at least one file exists
     if len(all_device_files) == 0:
-        print("Error: no device files, need to set it up")
+        logger.error("Error: no device files, need to set it up")
         exit(1)
 
     # get all the contents of the files and parse them and save them to ALL_CRONS
     for file in all_device_files:
         file_contents = ((PATH/CRONS_DIRECTORY/file).read_text())
         parse_crons(file, file_contents)
+    logger.info(f"Parsed {len(ALL_CRONS)} cron jobs from {len(all_device_files)} device files")
 
 
 # parse the file contents of the file and save it to the ALL_CRONS
@@ -65,7 +92,7 @@ def generate_next_runs():
         try:
             occurrences = list(croniter_range(now, horizon, cron_time))
         except Exception as e:
-            print(f"Skipping invalid expression {cron_time}: {e}")
+            logger.warning(f"Skipping invalid expression {cron_time}: {e}")
             continue
 
         # all the dates the job runs on (no times)
@@ -74,10 +101,12 @@ def generate_next_runs():
         # if any date for this job appears more than once, it SHOULD mean the job runs multiple times that day
         # will add only the dates it runs and mark it as an all day event
         if len(dates) != len(set(dates)):
+            logger.info(f"Cron job '{job['command-script']}' runs multiple times a day, marking it as an all day event")
             job["next-runs"] = sorted(set(dates))
             job["is-allday"] = True
         # if it does not run multiple times  a day, it is added as a single event from the occurrences list
         else:
+            logger.info(f"Cron job '{job['command-script']}' runs once a day, marking it as a single event")
             job["next-runs"] = occurrences
 
 
@@ -110,6 +139,7 @@ def generate_ics_file():
                 event.add("dtstart", dt)
                 event.add("dtend", dt + timedelta(minutes=1))
                 cal.add_component(event)
+    logger.info(f"Generated calendar with {len(cal.subcomponents)} events from {len(ALL_CRONS)} cron jobs")
     return cal
 
 
@@ -118,7 +148,7 @@ def save_ics_file(cal):
     output_path = PATH / "public" / "calendar.ics"
     with open(output_path, "wb") as f:
         f.write(cal.to_ical())
-    print(f"Calendar saved to {output_path}")
+    logger.info(f"Calendar saved to {output_path}")
 
 
 # remove the path from the command for clarity
