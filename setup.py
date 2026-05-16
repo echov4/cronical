@@ -8,7 +8,7 @@ from datetime import datetime
 import logging
 from logging.handlers import RotatingFileHandler
 
-# gets the crontabs of the current user only
+# gets the cron tabs of the current user only
 cron = CronTab(user=True)
 
 # global
@@ -115,42 +115,44 @@ def create_device_file():
     return device_file, device_name
 
 
-# add the watcher script to the original cronjob for every minute update
+# add the watcher script to the original cron tab for every minute update
 def add_watcher_to_crontab(python_venv_runtime_path):
     watcher_command = f"{python_venv_runtime_path} {PATH}/{WATCHER_FILE}"
 
-    # check if the watcher script is already added into the cronjobs
+    # check if the watcher script is already added into the cron tab
     watcher_added_status = False
     for job in cron:
         if watcher_command in job.command:
             watcher_added_status = True
             break
 
-    # if the watcher script command is not in the original cronjobs, then add the watcher script command
+    # if the watcher script command is not in the original cron tab, then add the watcher script command
     if watcher_added_status == False:
         job = cron.new(command=watcher_command)
         job.minute.every(1)
         job.set_comment("cronical-watcher")
         cron.write()
-        logger.info("cron-watcher.py script command added in the original cronjob, the command:\n" + watcher_command)
+        logger.info("cron-watcher.py script command added in the original cron tab, the command:\n" + watcher_command)
     else:
-        logger.info("cron-watcher.py file command is already in the original cronjob")
+        logger.info("cron-watcher.py file command is already in the original cron tab")
 
-# append the newly created device file with all the contents of all the original cronjobs
+
+# append the newly created device file with all the contents of all the original cron tabs
 def add_original_cronjobs_to_device_file(device_file):
-    # get the original cronjobs from command
+    # get the original cron tabs from command
     original_cronjobs = subprocess.run(
         ["crontab", "-l"],
         capture_output=True,
         text=True
     )
 
-    # save the original cronjobs to the device file if it has read correctly
+    # save the original cron tabs to the device file if it has read correctly
     if original_cronjobs.returncode == 0:
         with open(device_file, "w") as f:
             f.write(original_cronjobs.stdout)
+        logger.info(f"Original cron jobs have been added to the device file {device_file}")
     else:
-        logger.error("ERROR: cannot read cronjobs")
+        logger.error(f"ERROR: cannot read original cron jobs to add to the device file {device_file}")
 
 
 # setup the env file if it does not exist
@@ -160,9 +162,9 @@ def setup_env_file(device_file, device_name):
     github_pat = input("Enter in your github PAT code\t")
 
     if not os.path.isfile(PATH / ".env"):
-        logger.info(".env file has been created with the values")
+        logger.info(f".env file has been created at {PATH / '.env'} with the values")
     else:
-        logger.info(".env file already exists, and will be overwritten with the new values")
+        logger.info(f".env file already exist at {PATH / '.env'} and will be overwritten with the new values")
         with open(PATH / ".env", "w") as f:
             f.writelines(f"DEVICE_NAME={device_name}\n")
             f.writelines(f"DEVICE_PATH={device_file}\n")
@@ -176,25 +178,25 @@ def setup_gitignore():
     gitignore = PATH / ".gitignore"
     if not gitignore.exists():
         gitignore.open("w").close()
-        logger.info("Creating a .gitignore file")
+        logger.info(f"Creating a .gitignore file at {gitignore}")
     else:
-        logger.info(".gitignore file already exists")
+        logger.info(f".gitignore file already exists at {gitignore}")
 
     # check if .env file is in the gitignore
     if ".env" not in gitignore.read_text():
         with open(gitignore, "a") as f:
             f.write(".env\n")
-        logger.info(".env added to .gitignore")
+        logger.info(f".env added to .gitignore at {gitignore}")
     else:
-        logger.info(".env already in .gitignore")
+        logger.info(f".env already in .gitignore at {gitignore}")
 
     # check if .venv/ folder is in gitignore
     if ".venv/" not in gitignore.read_text():
         with open(gitignore, "a") as f:
             f.write(".venv/\n")
-        logger.info(".venv/ added in .gitignore")
+        logger.info(f".venv/ added in .gitignore at {gitignore}")
     else:
-        logger.info(".venv/ already in .gitignore")
+        logger.info(f".venv/ already in .gitignore at {gitignore}")
 
 
 

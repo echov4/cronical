@@ -101,6 +101,7 @@ def git_push():
         exit(1)
     logger.info("Repo pushed")
 
+
 # reads all the original crontabs
 def get_original_cronjobs():
     original_cronjobs = subprocess.run(
@@ -116,21 +117,23 @@ def get_original_cronjobs():
         logger.error("Error: could not read original cron jobs")
         exit(1)
 
+
 # monitors the string output of the cronjobs compared to the device file
 # returns True if there is changes, returns False if no changes
 def monitor_cron_changes(original_cronjobs):
     device_cronjobs = Path(DEVICE_FILE_PATH).read_text()
 
     if device_cronjobs != original_cronjobs.stdout:
-        logger.info("Cron jobs have changed, syncing...")
+        logger.info(f"Cron jobs have changed, syncing... with {DEVICE_FILE_PATH}")
         return True
     else:
-        print("Cron jobs have not changed, no need to sync")
+        print(f"Cron jobs have not changed, no need to sync with {DEVICE_FILE_PATH}")
         return False
 
 
 # adds the contents of the original cronjobs to the device file
 def update_device_file(original_cronjobs):
+    logger.info(f"Updating device file {DEVICE_FILE_PATH} with the latest cron jobs")
     with open(DEVICE_FILE_PATH, "w") as f:
         f.write(original_cronjobs.stdout)
 
@@ -145,5 +148,3 @@ if monitor_cron_changes(original_cronjobs):
     git_commit()
     git_pull()
     git_push()
-else:
-    print("No changes in cron jobs")
