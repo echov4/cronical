@@ -91,7 +91,7 @@ def git_commit():
 
 def git_push():
     result = subprocess.run(
-        ["git", "-C", str(PATH), "push", "origin", "main"],
+        ["git", "-C", str(PATH), "push", REMOTE_URL, "main"],
         capture_output=True,
         text=True
     )
@@ -111,7 +111,6 @@ def get_original_cronjobs():
     )
 
     if original_cronjobs.returncode == 0:
-        logger.info("Successfully read original cron jobs")
         return original_cronjobs
     else:
         logger.error("Error: could not read original cron jobs")
