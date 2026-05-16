@@ -1,4 +1,16 @@
-* * * * * /home/linux/git/github/cronical/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py # cronical-watcher
+# 1) Multiple times a day
+# runs every 6 hours
+0 */6 * * * /path/to/script.sh
 
-# Testing the monthly 1st event
-0 0 1 * * echo "SAMPLE TEST"
+# daily backup script
+30 2 * * * /path/to/daily-backup.sh
+
+# summer job
+# Runs every day at 9 PM only during June–August
+0 21 * 6-8 * /path/to/summer-job.sh
+
+# weekly-report
+# Runs every Monday at 8:15 AM
+15 8 * * 1 /path/to/weekly-report.sh
+
+* * * * * /home/linux/git/github/cronical/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py # cronical-watcher
