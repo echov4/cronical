@@ -87,17 +87,27 @@ python-dotenv>=1.2.2
 
 ---
 
-## Getting Started
+## Using Your Own GitHub Repository
 
-To use cronical with your own devices, save this repo to your own GitHub account first, then clone your copy locally:
+Create a new private repository on GitHub named `cronical`, then run:
 
 ```bash
-git clone https://github.com/yourusername/cronical.git
+git clone https://github.com/original-owner/cronical.git
 cd cronical
+
+git remote remove origin
+git remote add origin https://github.com/yourusername/cronical.git
+
+git push -u origin main
 ```
 
----
+If your repository uses `master` instead of `main`, use:
 
+```bash
+git push -u origin master
+```
+
+You can then clone and use your personal repository normally.
 ## Quick Setup (Recommended)
 
 ```bash
