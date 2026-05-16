@@ -1,6 +1,6 @@
 #  Multiple times a day
 # runs every 6 hours
-0 */6 * * * /path/to/script.sh
+0 */6 * * * /path/to/script.sh && /path/to/script/task-run.sh
 
 # daily backup script
 30 2 * * * /path/to/daily-backup.sh
