@@ -83,7 +83,7 @@ def generate_next_runs():
             continue
 
         # if the interval of the job is smaller than threshold - add an all day event in the next-runs in ALL_CRONS,
-        if job_interval < ALLDAY_THRESHOLD_MINUTES:
+        if job_interval <= ALLDAY_THRESHOLD_MINUTES:
             # get all the dates from now, till the horizon
             job["next-runs"] = [now.date() + timedelta(days=i) for i in range(HORIZON_DAYS)]
             job["is-allday"] = True
