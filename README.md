@@ -1,7 +1,9 @@
 # cronical
 Turn your cron jobs into a subscribable calendar
 
-> [!warning] Currently in Testing
+> [!WARNING]
+> Currently in Testing
+>
 > This has not been fully tested and changes may be required
 
 ## What is cronical?
