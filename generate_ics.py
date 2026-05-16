@@ -27,7 +27,7 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getLogger("cron-watcher")
+logger = logging.getLogger("generate-ics")
 
 
 
