@@ -10,13 +10,11 @@ CRONS_DIRECTORY = "crons"
 # list of  dicts of all cronjobs
 ALL_CRONS = []
 
-# threshold for how many days to create jobs for
+# threshold for how many days to create jobs for on the calendar
 HORIZON_DAYS = 365
-# minimum job length in minutes for it to be an all day event
-ALLDAY_THRESHOLD_MINUTES = 1440 # 24 hours in minutes
 
 
-# gets the crons of each file
+# gets the crons of each file in crons/
 def get_device_file_crons():
     # get all the files
     all_device_files= os.listdir(PATH/CRONS_DIRECTORY)
@@ -54,25 +52,31 @@ def parse_crons(file, file_contents):
             )
 
 
+# generates the next runs for each cron job and saves it to ALL_CRONS
 def generate_next_runs():
+    # get the current date time and the horizon date time
     now = datetime.now()
     horizon = now + timedelta(days=HORIZON_DAYS)
 
     for job in ALL_CRONS:
         cron_time = job["cron-time"]
 
+        # get the occurrences of the cron job between now and the horizon using croniter_range
         try:
             occurrences = list(croniter_range(now, horizon, cron_time))
         except Exception as e:
             print(f"Skipping invalid expression {cron_time}: {e}")
             continue
 
+        # all the dates the job runs on (no times)
         dates = [dt.date() for dt in occurrences]
 
-        # if any date appears more than once, job runs multiple times that day
+        # if any date for this job appears more than once, it SHOULD mean the job runs multiple times that day
+        # will add only the dates it runs and mark it as an all day event
         if len(dates) != len(set(dates)):
             job["next-runs"] = sorted(set(dates))
             job["is-allday"] = True
+        # if it does not run multiple times  a day, it is added as a single event from the occurrences list
         else:
             job["next-runs"] = occurrences
 
@@ -87,22 +91,22 @@ def generate_ics_file():
 
     # read the contents of all crons
     for job in ALL_CRONS:
-        # if all day -> make it an all day events
+        # if the job is marked as all day -> make it an all day events
         if job["is-allday"]:
             for day in job["next-runs"]:
                 event = Event()
-                event.add("summary", f"{job['device']} - {job['command-script']} (runs {job['human-time']})")
-                event.add("description", f"Schedule: {job['human-time']}\nCommand: {job['command']}\nComments: {job['comments']}")
+                event.add("summary", f"[{job['device']}] - {job['command-script']} (runs {job['human-time']})")
+                event.add("description", f"Schedule: {job['human-time']}\nFull Command: {job['command']}\nComments: {job['comments']}")
                 event.add("dtstart", day)
                 event.add("dtend", day + timedelta(days=1))
                 cal.add_component(event)
 
-        # if not all day -> make individual events
+        # if job is not marked as all all day -> make individual events
         else:
             for dt in job["next-runs"]:
                 event = Event()
-                event.add("summary", f"{job['device']} -  {job['command-script']}")
-                event.add("description", f"Schedule: {job['human-time']}\nCommand: {job['command']}\nComments: {job['comments']}")
+                event.add("summary", f"[{job['device']}] - {job['command-script']}")
+                event.add("description", f"Schedule: {job['human-time']}\nFull Command: {job['command']}\nComments: {job['comments']}")
                 event.add("dtstart", dt)
                 event.add("dtend", dt + timedelta(minutes=1))
                 cal.add_component(event)
@@ -112,7 +116,6 @@ def generate_ics_file():
 # save the ics file from ALL_CRONS
 def save_ics_file(cal):
     output_path = PATH / "public" / "calendar.ics"
-
     with open(output_path, "wb") as f:
         f.write(cal.to_ical())
     print(f"Calendar saved to {output_path}")
