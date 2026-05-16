@@ -16,9 +16,11 @@ PATH = Path(__file__).parent
 WATCHER_FILE = "cron-watcher.py"
 CRONS_DIRECTORY= "crons"
 
+# need to make the logs directory if it does not exist for the logging to work
+(PATH / "logs").mkdir(exist_ok=True)
 
 # setup logging with 1MB limit and keep 3 backups
-RotatingFileHandler(
+rotating_handler = RotatingFileHandler(
     PATH / "logs" / "cronical.log",
     maxBytes=1_000_000,
     backupCount=3
@@ -30,7 +32,7 @@ logging.basicConfig(
     format="[%(asctime)s] [%(name)s]: %(message)s",
     datefmt="%Y-%m-%d %H:%M:%S",
     handlers=[
-        logging.FileHandler(PATH / "logs" / "cronical.log"),
+        rotating_handler,
         logging.StreamHandler()
     ]
 )
@@ -77,16 +79,6 @@ def create_public_folder():
     else:
         os.mkdir(PATH / "public")
         logger.info("Created public/ directory")
-
-
-# check if logs folder if not there, create it
-def create_logs_folder():
-    if "logs" in os.listdir(PATH):
-        logger.info("logs/ directory already exists")
-    else:
-        os.mkdir(PATH / "logs")
-        logger.info("Created logs/ directory")
-
 
 # Get the device name and check if it already exists as a file in /crons, if not then create it
 # returns the device name in string, and device file path
@@ -161,16 +153,14 @@ def setup_env_file(device_file, device_name):
     github_repo_name = input("Enter in the repo of the github (case sensitive)\t")
     github_pat = input("Enter in your github PAT code\t")
 
-    if not os.path.isfile(PATH / ".env"):
-        logger.info(f".env file has been created at {PATH / '.env'} with the values")
-    else:
-        logger.info(f".env file already exist at {PATH / '.env'} and will be overwritten with the new values")
-        with open(PATH / ".env", "w") as f:
-            f.writelines(f"DEVICE_NAME={device_name}\n")
-            f.writelines(f"DEVICE_PATH={device_file}\n")
-            f.writelines(f"GITHUB_PAT={github_pat}\n")
-            f.writelines(f"GITHUB_USER={github_user}\n")
-            f.writelines(f"GITHUB_REPO_NAME={github_repo_name}\n")
+    with open(PATH / ".env", "w") as f:
+        f.writelines(f"DEVICE_NAME={device_name}\n")
+        f.writelines(f"DEVICE_PATH={device_file}\n")
+        f.writelines(f"GITHUB_PAT={github_pat}\n")
+        f.writelines(f"GITHUB_USER={github_user}\n")
+        f.writelines(f"GITHUB_REPO_NAME={github_repo_name}\n")
+    logger.info("if .env file already existed, it has been overwritten with the new values")
+    logger.info(f".env file has been created at {PATH / '.env'}")
 
 # sets the .gitignore file and adds the .env file in there
 def setup_gitignore():
@@ -203,7 +193,6 @@ def setup_gitignore():
 # MAIN
 python_venv_runtime_path = checkup_and_set_environment()
 create_cron_folder()
-create_logs_folder()
 create_public_folder()
 device_file, device_name = create_device_file()
 add_watcher_to_crontab(python_venv_runtime_path)

@@ -45,6 +45,8 @@ subscribe in Google Calendar, Apple Calendar, Outlook, etc.
 .
 ├── crons/                      # crontab files, one per device
 │   └── device.txt
+├── logs/                       # log files (never committed)
+│   └── cronical.log
 ├── public/                     # final output of calendar that is served
 │   └── calendar.ics
 ├── .github/
@@ -54,7 +56,7 @@ subscribe in Google Calendar, Apple Calendar, Outlook, etc.
 ├── generate_ics.py             # generates calendar.ics from all device files
 ├── setup.py                    # one-time setup script
 ├── sample-crons.txt            # sample cron jobs for testing
-├── .env                        # local environment variables (never committed)
+├── .env                        # local environment variables (never committed, created by setup.py)
 ├── .gitignore
 ├── pyproject.toml
 ├── .python-version
@@ -106,7 +108,16 @@ uv sync
 uv run setup.py
 ```
 
-The setup script will guide you through the rest.
+The setup script will:
+- Check `git` is installed and `.venv` exists
+- Create the `crons/`, `public/` and `logs/` directories
+- Create your device file in `crons/`
+- Copy your current crontab into the device file
+- Add `cron-watcher.py` to your system crontab (runs every minute by default)
+- Create and populate your `.env` file
+- Ensure `.env`, `.venv/` and `logs/` are in `.gitignore`
+
+All actions are logged to `logs/cronical.log`.
 
 ---
 
@@ -125,7 +136,7 @@ uv sync
 ### 2. Create required directories
 
 ```bash
-mkdir -p crons public
+mkdir -p crons public logs
 ```
 
 ### 3. Create a GitHub Personal Access Token (PAT)
@@ -172,6 +183,7 @@ Add this line, replacing the path with your actual path. The watcher runs every 
 ```
 .env
 .venv/
+logs/
 ```
 
 ---
@@ -195,38 +207,64 @@ The setup script will create a new device file in `crons/` and configure the wat
 
 ### `setup.py`
 
-One-time setup script. Run this after cloning the repo on any new device. It will:
+One-time setup script. Run this after cloning the repo on any new device. Logs all actions to `logs/cronical.log`. It will:
 
 - Check that `git` is installed and `.venv` exists
+- Create `crons/`, `public/` and `logs/` directories
 - Create your device file in `crons/`
 - Copy your current crontab into the device file
-- Add the watcher script to your system crontab
+- Add the watcher script to your system crontab (runs every minute)
 - Create and populate your `.env` file
-- Ensure `.env` and `.venv/` are in `.gitignore`
+- Ensure `.env`, `.venv/` and `logs/` are in `.gitignore`
 
 ### `cron-watcher.py`
 
-Runs as a cron job (every minute by default, configurable). It will:
+Runs as a cron job (every minute by default, configurable). Logs changes and git operations to `logs/cronical.log`. It will:
 
+- Check all required `.env` variables are set
 - Read your current crontab
 - Compare it to your device file in `crons/`
-- If changed: update the device file, commit, pull and push to GitHub
-- If unchanged: exit silently
+- If changed: log the change, update the device file, commit, pull and push to GitHub
+- If unchanged: print to terminal only, nothing written to log
 
 ### `generate_ics.py`
 
-Runs in GitHub Actions on every push to `crons/**` and on a configurable schedule (see `generate_ics.yml`). It will:
+Runs in GitHub Actions on every push to `crons/**` and on a configurable schedule (see `generate_ics.yml`). Logs progress to `logs/cronical.log` when run locally. It will:
 
 - Read all device files from `crons/`
 - For each job, determine if it runs multiple times per day:
   - If yes: one all-day event per active day
   - If no: one timed event per occurrence
 - Save the merged `calendar.ics` to `public/`
+- Log how many events were generated and where the file was saved
 
 By default events are generated for 365 days ahead. If the ICS file becomes too large or calendar apps are slow to sync, you can reduce this by changing `HORIZON_DAYS` at the top of `generate_ics.py`:
 
 ```python
 HORIZON_DAYS = 365  # reduce this if the file is too large
+```
+
+---
+
+## Logging
+
+All three scripts log to a shared file at `logs/cronical.log` in the format:
+
+```
+[2026-05-16 10:32:01] [setup]: Git is installed
+[2026-05-16 10:32:02] [setup]: Device file created
+[2026-05-16 10:32:03] [cron-watcher]: Cron jobs have changed, syncing...
+[2026-05-16 10:32:04] [cron-watcher]: Repo pushed
+[2026-05-16 10:32:05] [generate-ics]: Calendar saved to public/calendar.ics
+```
+
+Log files rotate automatically at 1MB and up to 3 backups are kept. The `logs/` directory is never committed to git.
+
+To view logs:
+```bash
+cat logs/cronical.log
+# or follow live
+tail -f logs/cronical.log
 ```
 
 ---
@@ -244,9 +282,8 @@ https://raw.githubusercontent.com/yourusername/cronical/main/public/calendar.ics
 ```
 
 ### Option 2: Static Hosting Platform (private repo, public URL)
-Could use something like Cloudflare
 
-Keeps your repo private while serving the ICS file at a public URL:
+Keeps your repo private while serving the ICS file at a public URL. Cloudflare Pages works well for this:
 
 1. Go to [pages.cloudflare.com](https://pages.cloudflare.com)
 2. Connect your GitHub repo
