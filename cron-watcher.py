@@ -137,12 +137,26 @@ def update_device_file(original_cronjobs):
         f.write(original_cronjobs.stdout)
 
 
+def run_generate_ics_local():
+    result = subprocess.run(
+        [f"{PATH}/.venv/bin/python", str(PATH / "generate_ics.py")],
+        capture_output=True,
+        text=True
+    )
+    if result.returncode != 0:
+        logger.error(f"ERROR running generate_ics: {result.stderr}")
+        logger.error(f"Output: {result.stdout}")
+        exit(1)
+    logger.info("generate_ics ran successfully")
+
 # MAIN
 # if there are changes in the cronjob then execute the changes
 check_env_variables()
 original_cronjobs = get_original_cronjobs()
 if monitor_cron_changes(original_cronjobs):
     update_device_file(original_cronjobs)
+    # # run generate ics locally before pushing up instead of using github actions
+    run_generate_ics_local()
     git_add()
     git_commit()
     git_pull()
