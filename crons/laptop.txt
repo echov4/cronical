@@ -1,15 +1,12 @@
-# runs every 6 hours
-0 */6 * * * /path/to/script.sh && /path/to/script/task-run.sh
 
-# daily backup script
-30 2 * * * /path/to/daily-backup.sh
+# daily check
+* * * * * check.py
 
-# summer job
-# Runs every day at 9 PM only during June–August
-0 21 * 6-8 * /path/to/summer-job.sh
+# daily key change
+30 2 * * * /path/to/change-key.sh
 
 # weekly-report
-# Runs every Monday at 8:15 AM
-15 8 * * 1 /path/to/weekly-report.sh
+# emails 
+15 8 * * 1 /path/to/emials.sh
 
 * * * * * /home/linux/git/github/cronical/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py # cronical-watcher
