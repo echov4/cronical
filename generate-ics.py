@@ -11,7 +11,7 @@ from logging.handlers import RotatingFileHandler
 PATH = Path(__file__).parent
 # setup logging with 1MB limit and keep 3 backups
 rotating_handler = RotatingFileHandler(
-    PATH / "logs" / "cronical.log",
+    PATH / "logs" / "generate-ics-action.log",
     maxBytes=1_000_000,
     backupCount=3
 )
