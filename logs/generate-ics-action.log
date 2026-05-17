@@ -1,0 +1,11 @@
+[2026-05-17 06:12:14] [generate-ics]: Parsed 4 cron jobs from 1 device files
+[2026-05-17 06:12:15] [generate-ics]: Generated 8760 occurrences for cron job 'check.py' with schedule 'At 2 minutes past the hour'
+[2026-05-17 06:12:15] [generate-ics]: Cron job 'check.py' runs multiple times a day, marking it as an all day event
+[2026-05-17 06:12:15] [generate-ics]: Generated 365 occurrences for cron job 'change-key.sh' with schedule 'At 02:30'
+[2026-05-17 06:12:15] [generate-ics]: Cron job 'change-key.sh' runs once a day, marking it as a single event
+[2026-05-17 06:12:15] [generate-ics]: Generated 52 occurrences for cron job 'emials.sh' with schedule 'At 08:15, only on Monday'
+[2026-05-17 06:12:15] [generate-ics]: Cron job 'emials.sh' runs once a day, marking it as a single event
+[2026-05-17 06:12:22] [generate-ics]: Generated 525600 occurrences for cron job 'cron-watcher.py' with schedule 'Every minute'
+[2026-05-17 06:12:22] [generate-ics]: Cron job 'cron-watcher.py' runs multiple times a day, marking it as an all day event
+[2026-05-17 06:12:22] [generate-ics]: Generated calendar with 1149 events from 4 cron jobs for 365 days
+[2026-05-17 06:12:22] [generate-ics]: Calendar saved to /home/runner/work/cronical/cronical/public/calendar.ics
