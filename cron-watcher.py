@@ -1,6 +1,5 @@
 import os
 import subprocess
-from crontab import CronTab
 from dotenv import load_dotenv
 from pathlib import Path
 
@@ -39,9 +38,6 @@ logging.basicConfig(
 )
 
 logger = logging.getLogger("cron-watcher")
-
-# gets the crontabs of the current user only
-cron = CronTab(user=True)
 
 
 def check_env_variables():
@@ -154,13 +150,10 @@ def run_generate_ics_local():
 check_env_variables()
 original_cronjobs = get_original_cronjobs()
 if monitor_cron_changes(original_cronjobs):
-    update_device_file(original_cronjobs)
-    git_add()
-    git_commit()
     git_pull()
+    update_device_file(original_cronjobs)
     # # run generate ics locally before adding, committing and pushing up instead of using github actions
     # run_generate_ics_local()
-    # git_add()
-    # git_commit()
-    # # # # # #
+    git_add()
+    git_commit()
     git_push()
