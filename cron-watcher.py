@@ -159,8 +159,8 @@ if monitor_cron_changes(original_cronjobs):
     git_commit()
     git_pull()
     # # run generate ics locally before adding, committing and pushing up instead of using github actions
-    run_generate_ics_local()
-    git_add()
-    git_commit()
+    # run_generate_ics_local()
+    # git_add()
+    # git_commit()
     # # # # # #
     git_push()
