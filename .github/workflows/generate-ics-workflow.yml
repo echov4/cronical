@@ -44,7 +44,7 @@ jobs:
     - name: Commit and push calendar.ics
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "auto: regenerate calendar.ics"
+        commit_message: "[actions]: regenerate calendar.ics"
         file_pattern: "public/calendar.ics logs/generate-ics-action.log"
 
     # add for debugging purposes
