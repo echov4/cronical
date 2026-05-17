@@ -9,9 +9,12 @@ on:
 
 
 jobs:
-  build:
+  setup-and-run-script:
   # uses latest ubuntu
     runs-on: ubuntu-latest
+    # allows for write permissions on runner
+    permissions:
+      contents: write 
 
     # clones the repo into the runner
     steps:
