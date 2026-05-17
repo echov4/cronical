@@ -74,7 +74,7 @@ def git_add():
 
 def git_commit():
     result = subprocess.run(
-        ["git",  "-C", str(PATH), "commit", "-m", f"auto: update crons for device [{DEVICE_NAME}]"],
+        ["git",  "-C", str(PATH), "commit", "-m", f"[{DEVICE_NAME}]: update crons for device"],
         capture_output=True,
         text=True
     )
