@@ -1,11 +1,4 @@
 # daily check
-2 * * * * check.py
-
-# daily key change
-30 2 * * * /path/to/change-key.sh
-
-# weekly-report
-# emails 
-15 8 * * 1 /path/to/emials.sh
+2 * * * * /home/linux/check.py && /home/linux/test.py
 
 * * * * * /home/linux/git/github/cronical/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py # cronical-watcher
