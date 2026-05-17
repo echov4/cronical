@@ -1,5 +1,5 @@
 #first test
-5 * * * * test1.sh && test2.sh
+10 * * * * test1.sh && test2.sh
 
 # another test
 * * * * * sample1.sh ; sample2.sh
