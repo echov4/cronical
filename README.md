@@ -35,7 +35,7 @@ subscribe in Google Calendar, Apple Calendar, Outlook, etc.
 - Jobs that run once a day or less appear as individual timed events
 - Automatically syncs crontab changes
 - Entirely free stack (GitHub, GitHub Actions, Cloudflare Pages or raw GitHub URL)
-- Anyone can save this repo to their own account and have it working for their own devices
+- Anyone can fork this repo to their own account and have it working for their own devices
 
 ---
 
@@ -43,20 +43,21 @@ subscribe in Google Calendar, Apple Calendar, Outlook, etc.
 
 ```bash
 .
-├── crons/                      # crontab files, one per device
+├── crons/                          # crontab files, one per device
 │   └── device.txt
-├── logs/                       # log files (never committed)
-│   └── cronical.log
-├── public/                     # final output of calendar that is served
+├── logs/
+│   ├── cronical.log                # local log, never committed (gitignored via logs/cronical*)
+│   └── generate-ics-action.log    # written by GitHub Actions, committed to repo
+├── public/                         # final output of calendar that is served
 │   └── calendar.ics
 ├── .github/
 │   └── workflows/
-│       └── generate_ics.yml    # GitHub Actions workflow
-├── cron-watcher.py             # watches for crontab changes and pushes to GitHub
-├── generate_ics.py             # generates calendar.ics from all device files
-├── setup.py                    # one-time setup script
-├── sample-crons.txt            # sample cron jobs for testing
-├── .env                        # local environment variables (never committed, created by setup.py)
+│       └── generate-ics-workflow.yml
+├── cron-watcher.py                 # watches for crontab changes and pushes to GitHub
+├── generate-ics.py                 # generates calendar.ics from all device files
+├── setup.py                        # one-time setup script
+├── sample-crons.txt                # sample cron jobs for testing
+├── .env                            # local environment variables (never committed, created by setup.py)
 ├── .gitignore
 ├── pyproject.toml
 ├── .python-version
@@ -69,7 +70,7 @@ subscribe in Google Calendar, Apple Calendar, Outlook, etc.
 ## Requirements
 
 - `git` installed on your system
-- Python 3.14+
+- Python 3.12+
 - `uv` package manager ([install guide](https://docs.astral.sh/uv/getting-started/))
 - A GitHub account with a Personal Access Token (PAT)
 
@@ -83,6 +84,7 @@ croniter>=6.2.2
 icalendar>=7.1.0
 python-crontab>=3.3.0
 python-dotenv>=1.2.2
+regex>=2026.5.9
 ```
 
 ---
@@ -108,6 +110,9 @@ git push -u origin master
 ```
 
 You can then clone and use your personal repository normally.
+
+---
+
 ## Quick Setup (Recommended)
 
 ```bash
@@ -125,7 +130,7 @@ The setup script will:
 - Copy your current crontab into the device file
 - Add `cron-watcher.py` to your system crontab (runs every minute by default)
 - Create and populate your `.env` file
-- Ensure `.env`, `.venv/` and `logs/` are in `.gitignore`
+- Ensure `.env`, `.venv/` and `logs/cronical*` are in `.gitignore`
 
 All actions are logged to `logs/cronical.log`.
 
@@ -193,7 +198,7 @@ Add this line, replacing the path with your actual path. The watcher runs every 
 ```
 .env
 .venv/
-logs/
+logs/cronical*
 ```
 
 ---
@@ -225,7 +230,7 @@ One-time setup script. Run this after cloning the repo on any new device. Logs a
 - Copy your current crontab into the device file
 - Add the watcher script to your system crontab (runs every minute)
 - Create and populate your `.env` file
-- Ensure `.env`, `.venv/` and `logs/` are in `.gitignore`
+- Ensure `.env`, `.venv/` and `logs/cronical*` are in `.gitignore`
 
 ### `cron-watcher.py`
 
@@ -234,12 +239,12 @@ Runs as a cron job (every minute by default, configurable). Logs changes and git
 - Check all required `.env` variables are set
 - Read your current crontab
 - Compare it to your device file in `crons/`
-- If changed: log the change, update the device file, commit, pull and push to GitHub
+- If changed: log the change, pull remote changes, update the device file, commit and push to GitHub
 - If unchanged: print to terminal only, nothing written to log
 
-### `generate_ics.py`
+### `generate-ics.py`
 
-Runs in GitHub Actions on every push to `crons/**` and on a configurable schedule (see `generate_ics.yml`). Logs progress to `logs/cronical.log` when run locally. It will:
+Runs in GitHub Actions on every push to `crons/**`. Logs progress to `logs/generate-ics-action.log`. It will:
 
 - Read all device files from `crons/`
 - For each job, determine if it runs multiple times per day:
@@ -248,7 +253,7 @@ Runs in GitHub Actions on every push to `crons/**` and on a configurable schedul
 - Save the merged `calendar.ics` to `public/`
 - Log how many events were generated and where the file was saved
 
-By default events are generated for 365 days ahead. If the ICS file becomes too large or calendar apps are slow to sync, you can reduce this by changing `HORIZON_DAYS` at the top of `generate_ics.py`:
+By default events are generated for 365 days ahead. If the ICS file becomes too large or calendar apps are slow to sync, you can reduce this by changing `HORIZON_DAYS` at the top of `generate-ics.py`:
 
 ```python
 HORIZON_DAYS = 365  # reduce this if the file is too large
@@ -256,9 +261,47 @@ HORIZON_DAYS = 365  # reduce this if the file is too large
 
 ---
 
+## Local ICS Generation (Alternative)
+
+By default, `generate-ics.py` runs in GitHub Actions after each push. If you prefer to generate the calendar locally before pushing (for example, if you want to avoid relying on GitHub Actions entirely), `cron-watcher.py` includes a commented-out block that supports this:
+
+```python
+# run generate ics locally before adding, committing and pushing up instead of using github actions
+# run_generate_ics_local()
+# git_add()
+# git_commit()
+```
+
+To enable local generation:
+
+1. Uncomment the block above in `cron-watcher.py`
+2. Comment out or remove the `git_push()` call that follows it, since the local flow does its own second commit and push
+3. Optionally disable the GitHub Actions workflow entirely (delete or disable `.github/workflows/generate-ics-workflow.yml`)
+
+In this mode the flow becomes:
+
+```
+crontab changes on your device
+        ↓
+cron-watcher.py detects the change
+        ↓
+updates the device file and commits it
+        ↓
+runs generate-ics.py locally to produce calendar.ics
+        ↓
+commits calendar.ics and pushes everything to GitHub
+        ↓
+calendar.ics is served from the repo directly
+```
+
+> [!WARNING]
+> This is useful if you only have one device, want faster updates without waiting for Actions, or want to keep the repo fully self-contained without any CI dependency.
+
+---
+
 ## Logging
 
-All three scripts log to a shared file at `logs/cronical.log` in the format:
+`cron-watcher.py` and `setup.py` log to `logs/cronical.log`. `generate-ics.py` logs to `logs/generate-ics-action.log`. The format for all three is:
 
 ```
 [2026-05-16 10:32:01] [setup]: Git is installed
@@ -268,9 +311,11 @@ All three scripts log to a shared file at `logs/cronical.log` in the format:
 [2026-05-16 10:32:05] [generate-ics]: Calendar saved to public/calendar.ics
 ```
 
-Log files rotate automatically at 1MB and up to 3 backups are kept. The `logs/` directory is never committed to git.
+`logs/cronical*` is gitignored. This covers the main log and all rotated backups (`cronical.log.1`, `cronical.log.2`, `cronical.log.3`). Log files rotate automatically at 1MB and up to 3 backups are kept.
 
-To view logs:
+`logs/generate-ics-action.log` is not gitignored and is committed to the repo by GitHub Actions after each run so you can inspect it without leaving GitHub.
+
+To view local logs:
 ```bash
 cat logs/cronical.log
 # or follow live
@@ -344,7 +389,7 @@ If you need to re-run setup on an existing device:
 - **Linux and macOS only.** Windows is not supported since it does not have a native cron daemon.
 - **User crontab only.** System-wide crontabs in `/etc/cron.d/` or `/etc/crontab` are not monitored. Only the current user's crontab (`crontab -l`) is tracked.
 - **Special cron syntax may not parse correctly.** Expressions like `@reboot` or non-standard syntax may be skipped or display incorrect human-readable descriptions.
-- **Calendar events expire after 365 days by default.** The ICS regenerates on every crontab change and on the GitHub Actions schedule, but if neither happens for over a year, events will run out. Adjust `HORIZON_DAYS` in `generate_ics.py` if needed.
+- **Calendar events expire after 365 days by default.** The ICS regenerates on every crontab change, but if no changes happen for over a year, events will run out. Adjust `HORIZON_DAYS` in `generate-ics.py` if needed.
 - **Google Calendar syncs slowly.** Google Calendar only refreshes subscribed calendars every 12-24 hours. Changes will not appear instantly.
 - **Machine must be on.** If your machine is off or sleeping, the watcher cannot detect changes. Changes will sync the next time the machine is on and the watcher runs.
 - **PAT expiry.** GitHub PATs can expire. If push/pull stops working, regenerate your PAT and update your `.env`.
