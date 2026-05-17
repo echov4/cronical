@@ -4,6 +4,7 @@ from crontab import CronTab
 from datetime import datetime, timedelta
 from croniter import croniter, croniter_range
 from icalendar import Calendar, Event
+import regex as re
 
 import logging
 from logging.handlers import RotatingFileHandler
@@ -149,10 +150,25 @@ def save_ics_file(cal):
     logger.info(f"Calendar saved to {output_path}")
 
 
-# remove the path from the command for clarity
+# gets the script from the commands the full path
 def get_command_name(command):
-    command_trimmed = Path(command).name
-    return command_trimmed
+    # split on common shell separators
+    parts = re.split(r'(&&|\|\||;|\|)', command)
+
+    # get name from each part that is a command (not a separator)
+    names = []
+    for part in parts:
+        part = part.strip()
+        # skip separators
+        if part in ("&&", "||", ";", "|"):
+            names.append(part)
+        else:
+            # extract just the script name from the path
+            name = Path(part.split()[0]).name if part else ""
+            if name:
+                names.append(name)
+
+    return " ".join(names)
 
 
 # # MAIN
