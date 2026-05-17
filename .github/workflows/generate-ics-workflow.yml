@@ -1,0 +1,47 @@
+name: Generate ICS
+
+# runs on push to main branch only when changes are in crons/
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'crons/**'
+
+
+jobs:
+  build:
+  # uses latest ubuntu
+    runs-on: ubuntu-latest
+
+    # clones the repo into the runner
+    steps:
+    - uses: actions/checkout@v4
+
+    # installs the uv into runner
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+
+    # install Python 3.12
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.12"
+
+    # reads pyproject.toml and installs the dependencies
+    - name: Install dependencies
+      run: |
+       uv sync
+
+    # runs the script generate-ics,py using the .venv
+    - name: Run Script
+      run: |
+       uv run generate-ics.py
+
+    # checks to see if calendar.ics is changed and commit and pushes it
+    - name: Commit and push calendar.ics
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "auto: regenerate calendar.ics"
+        file_pattern: "public/calendar.ics"
+        
+
