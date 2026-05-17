@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     # allows for write permissions on runner
     permissions:
-      contents: write 
+      contents: write
 
     # clones the repo into the runner
     steps:
@@ -33,12 +33,12 @@ jobs:
     # reads pyproject.toml and installs the dependencies
     - name: Install dependencies
       run: |
-       uv sync
+        uv sync
 
     # runs the script generate-ics,py using the .venv
     - name: Run Script
       run: |
-       uv run generate-ics.py
+        uv run generate-ics.py
 
     # checks to see if calendar.ics is changed and commit and pushes it
     - name: Commit and push calendar.ics
@@ -46,5 +46,9 @@ jobs:
       with:
         commit_message: "auto: regenerate calendar.ics"
         file_pattern: "public/calendar.ics"
-        
 
+    # add for debugging purposes
+    - name: Debug
+      run: |
+        ls -la crons/
+        git status
