@@ -18,3 +18,10 @@
 [2026-05-17 09:52:19] [generate-ics]: Calendar saved to /home/runner/work/cronical/cronical/public/calendar.ics
 [2026-05-17 11:14:13] [generate-ics]: Parsed 2 cron jobs from 1 device files
 [2026-05-17 11:14:30] [generate-ics]: Parsed 2 cron jobs from 1 device files
+[2026-05-17 10:23:13] [generate-ics]: Parsed 2 cron jobs from 1 device files
+[2026-05-17 10:23:13] [generate-ics]: Generated 8760 occurrences for cron job 'check.py && test.py' with schedule 'At 5 minutes past the hour'
+[2026-05-17 10:23:13] [generate-ics]: Cron job 'check.py && test.py' runs multiple times a day, marking it as an all day event
+[2026-05-17 10:23:20] [generate-ics]: Generated 525600 occurrences for cron job 'python' with schedule 'Every minute'
+[2026-05-17 10:23:20] [generate-ics]: Cron job 'python' runs multiple times a day, marking it as an all day event
+[2026-05-17 10:23:20] [generate-ics]: Generated calendar with 732 events from 2 cron jobs for 365 days
+[2026-05-17 10:23:20] [generate-ics]: Calendar saved to /home/runner/work/cronical/cronical/public/calendar.ics
