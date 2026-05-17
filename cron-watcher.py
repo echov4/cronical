@@ -139,7 +139,7 @@ def update_device_file(original_cronjobs):
 # runs the generate_ics.py script locally to generate the ics files before pushing up to github instead of using github actions
 def run_generate_ics_local():
     result = subprocess.run(
-        [f"{PATH}/.venv/bin/python", str(PATH / "generate_ics.py")],
+        [f"{PATH}/.venv/bin/python", str(PATH / "generate-ics.py")],
         capture_output=True,
         text=True
     )
