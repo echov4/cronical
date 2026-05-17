@@ -40,12 +40,12 @@ jobs:
       run: |
         uv run generate-ics.py
 
-    # checks to see if calendar.ics is changed and commit and pushes it
+    # checks to see if calendar.ics is changed and adds any logs in generate-ics-action.log commit and pushes it
     - name: Commit and push calendar.ics
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: "auto: regenerate calendar.ics"
-        file_pattern: "public/calendar.ics"
+        file_pattern: "public/calendar.ics logs/generate-ics-action.log"
 
     # add for debugging purposes
     - name: Debug
