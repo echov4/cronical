@@ -1,6 +1,5 @@
-
 # daily check
-* * * * * check.py
+2 * * * * check.py
 
 # daily key change
 30 2 * * * /path/to/change-key.sh
