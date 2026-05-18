@@ -151,6 +151,6 @@ def setup_env_file(device_file, device_name):
 python_venv_runtime_path = checkup_and_set_environment()
 device_file, device_name = create_device_file()
 add_original_cronjobs_to_device_file(device_file)
-add_watcher_to_crontab(python_venv_runtime_path)
 setup_env_file(device_file, device_name)
+add_watcher_to_crontab(python_venv_runtime_path)
 logger.info("Setup completed")
