@@ -39,7 +39,7 @@ logging.basicConfig(
 
 logger = logging.getLogger("cron-watcher")
 
-
+# checks if all the variables in env are correct
 def check_env_variables():
     if not all([DEVICE_NAME, DEVICE_FILE_PATH, GITHUB_PAT, GITHUB_REPO_NAME, GITHUB_USER]):
         logger.error("ERROR: missing required .env variables, run setup.py first or fill it in")
@@ -98,7 +98,7 @@ def git_push():
     logger.info("Repo pushed")
 
 
-# reads all the original crontabs
+# reads all the original crontabs and returns them
 def get_original_cronjobs():
     original_cronjobs = subprocess.run(
         ["crontab", "-l"],
