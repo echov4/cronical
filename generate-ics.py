@@ -123,7 +123,7 @@ def generate_ics_file():
             for day in job["next-runs"]:
                 event = Event()
                 event.add("summary", f"[{job['device']}] - {job['command-script']} (runs {job['human-time']})")
-                event.add("description", f"Schedule: {job['human-time']}\n\nCron Schedule: {job['cron-time']}\n\nFull Command: {job['command']}\n\nComments: {job['comments']}")
+                event.add("description", f"Device: {job['device']}\n\nSchedule: {job['human-time']}\n\nCron Schedule: {job['cron-time']}\n\nFull Command: {job['command']}\n\nComments: {job['comments']}")
                 event.add("dtstart", day)
                 event.add("dtend", day + timedelta(days=1))
                 cal.add_component(event)
@@ -133,7 +133,7 @@ def generate_ics_file():
             for dt in job["next-runs"]:
                 event = Event()
                 event.add("summary", f"[{job['device']}] - {job['command-script']}")
-                event.add("description", f"Schedule: {job['human-time']}\n\nCron Schedule: {job['cron-time']}\n\nFull Command: {job['command']}\n\nComments: {job['comments']}")
+                event.add("description", f"Device: {job['device']}\n\nSchedule: {job['human-time']}\n\nCron Schedule: {job['cron-time']}\n\nFull Command: {job['command']}\n\nComments: {job['comments']}")
                 event.add("dtstart", dt)
                 event.add("dtend", dt + timedelta(minutes=1))
                 cal.add_component(event)
