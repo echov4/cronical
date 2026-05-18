@@ -2,3 +2,5 @@
 5 * * * * /home/linux/check.py && /home/linux/test.py
 
 * * * * * /home/linux/git/github/cronical/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py # cronical-watcher
+# new
+0 17 * * * /path/to/script.sh
