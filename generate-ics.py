@@ -33,7 +33,6 @@ logger = logging.getLogger("generate-ics")
 CRONS_DIRECTORY = "crons"
 # list of  dicts of all cronjobs
 ALL_CRONS = []
-
 # threshold for how many days to create jobs for on the calendar
 HORIZON_DAYS = 365
 
