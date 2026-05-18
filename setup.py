@@ -38,6 +38,7 @@ logger = logging.getLogger("setup")
 
 
 # checks to see if git is installed, and the .venv exists
+# returns the venv runtime
 def checkup_and_set_environment():
     # check if git is installed
     if shutil.which("git") is None:
@@ -46,7 +47,7 @@ def checkup_and_set_environment():
     else:
         logger.info("Git is installed")
 
-    # make a .venv folder
+    # checks for a .venv folder
     if not (PATH / ".venv").exists():
         logger.error("ERROR: .venv does not exist, run `uv sync`")
         exit(1)
@@ -56,7 +57,7 @@ def checkup_and_set_environment():
     # get the .venv runtime path
     python_venv_runtime_path = f"{PATH}/.venv/bin/python"
 
-    # return the path to the python runtime for the cronjob runtime
+    # return the path to the python runtime for the cronjob runtime for running watcher-script
     return python_venv_runtime_path
 
 
@@ -85,31 +86,6 @@ def create_device_file():
             logger.error(f"- Check if {device_file} is a name for another device")
             logger.error("- If it is a new device, enter in a different name for this device ")
     return device_file, device_name
-
-
-# add the watcher script to the original cron tab for every minute update
-def add_watcher_to_crontab(python_venv_runtime_path):
-    # gets the cron tabs of the current user only
-    cron = CronTab(user=True)
-
-    watcher_command = f"{python_venv_runtime_path} {PATH}/{WATCHER_FILE}"
-
-    # check if the watcher script is already added into the cron tab then skip
-    watcher_added_status = False
-    for job in cron:
-        if watcher_command in job.command:
-            watcher_added_status = True
-            break
-
-    # if the watcher script command is not in the original cron tab, then add the watcher script command
-    if not watcher_added_status:
-        job = cron.new(command=watcher_command)
-        job.minute.every(4)
-        job.set_comment("cronical-watcher")
-        cron.write()
-        logger.info("cron-watcher.py script command added in the original cron tab, the command:\n" + watcher_command)
-    else:
-        logger.info("cron-watcher.py file command is already in the original cron tab")
 
 
 # append the newly created device file with all the contents of all the original cron tabs
@@ -145,6 +121,31 @@ def setup_env_file(device_file, device_name):
         f.write(f"GITHUB_REPO_NAME={github_repo_name}\n")
     logger.info("if .env file already existed, it has been overwritten with the new values")
     logger.info(f".env file has been created at {PATH / '.env'}")
+
+
+# add the watcher script to the original cron tab for every minute update
+def add_watcher_to_crontab(python_venv_runtime_path):
+    # gets the cron tabs of the current user only
+    cron = CronTab(user=True)
+
+    watcher_command = f"{python_venv_runtime_path} {PATH}/{WATCHER_FILE}"
+
+    # check if the watcher script is already added into the cron tab then skip
+    watcher_added_status = False
+    for job in cron:
+        if watcher_command in job.command:
+            watcher_added_status = True
+            break
+
+    # if the watcher script command is not in the original cron tab, then add the watcher script command
+    if not watcher_added_status:
+        job = cron.new(command=watcher_command)
+        job.minute.every(4)
+        job.set_comment("cronical-watcher")
+        cron.write()
+        logger.info("cron-watcher.py script command added in the original cron tab, the command:\n" + watcher_command)
+    else:
+        logger.info("cron-watcher.py file command is already in the original cron tab")
 
 
 # MAIN
