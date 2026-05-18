@@ -39,3 +39,10 @@
 [2026-05-18 09:47:03] [generate-ics]: Cron job 'python cron-watcher.py' runs multiple times a day, marking it as an all day event
 [2026-05-18 09:47:03] [generate-ics]: Generated calendar with 731 events from 2 cron jobs for 365 days
 [2026-05-18 09:47:03] [generate-ics]: Calendar saved to /home/runner/work/cronical/cronical/public/calendar.ics
+[2026-05-18 09:52:16] [generate-ics]: Parsed 2 cron jobs from 2 device files
+[2026-05-18 09:52:16] [generate-ics]: Generated 21900 occurrences for cron job 'task.sh && run.py ; last.py' with schedule 'Every minute, between 01:00 and 01:59'
+[2026-05-18 09:52:16] [generate-ics]: Cron job 'task.sh && run.py ; last.py' runs multiple times a day, marking it as an all day event
+[2026-05-18 09:52:23] [generate-ics]: Generated 525600 occurrences for cron job 'python cron-watcher.py' with schedule 'Every minute'
+[2026-05-18 09:52:24] [generate-ics]: Cron job 'python cron-watcher.py' runs multiple times a day, marking it as an all day event
+[2026-05-18 09:52:24] [generate-ics]: Generated calendar with 731 events from 2 cron jobs for 365 days
+[2026-05-18 09:52:24] [generate-ics]: Calendar saved to /home/runner/work/cronical/cronical/public/calendar.ics
