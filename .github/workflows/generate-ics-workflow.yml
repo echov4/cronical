@@ -44,10 +44,10 @@ jobs:
         uv run generate-ics.py
 
     # pull any changes before running
-    - name: Pull before commit
+    - name: Pull before Committing
       run: git pull --rebase origin main
 
-    # checks to see if calendar.ics is changed and adds any logs in generate-ics-action.log commit and pushes it
+      # checks to see if calendar.ics is changed and adds any logs in generate-ics-action.log commit and pushes it
     - name: Commit and push calendar.ics
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
