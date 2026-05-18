@@ -140,7 +140,7 @@ def add_watcher_to_crontab(python_venv_runtime_path):
     # if the watcher script command is not in the original cron tab, then add the watcher script command
     if not watcher_added_status:
         job = cron.new(command=watcher_command)
-        job.minute.every(4)
+        job.minute.every(5)
         job.set_comment("cronical-watcher")
         cron.write()
         logger.info("cron-watcher.py script command added in the original cron tab, the command:\n" + watcher_command)
