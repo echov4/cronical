@@ -4,3 +4,5 @@
 * * * * * /home/linux/git/github/cronical/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py # cronical-watcher
 # new
 0 17 * * * /path/to/script.sh
+
+* * * * * echo "Hello world" ; /path/to/run.py -t
