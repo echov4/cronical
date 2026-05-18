@@ -23,3 +23,12 @@
 [2026-05-18 09:05:31] [generate-ics]: Cron job 'python cron-watcher.py' runs multiple times a day, marking it as an all day event
 [2026-05-18 09:05:31] [generate-ics]: Generated calendar with 1463 events from 4 cron jobs for 365 days
 [2026-05-18 09:05:32] [generate-ics]: Calendar saved to /home/runner/work/cronical/cronical/public/calendar.ics
+[2026-05-18 09:11:18] [generate-ics]: Parsed 3 cron jobs from 2 device files
+[2026-05-18 09:11:19] [generate-ics]: Generated 8760 occurrences for cron job 'check.py && test.py' with schedule 'At 2 minutes past the hour'
+[2026-05-18 09:11:19] [generate-ics]: Cron job 'check.py && test.py' runs multiple times a day, marking it as an all day event
+[2026-05-18 09:11:26] [generate-ics]: Generated 525600 occurrences for cron job 'cloudflare.sh ; run.py -t' with schedule 'Every minute'
+[2026-05-18 09:11:26] [generate-ics]: Cron job 'cloudflare.sh ; run.py -t' runs multiple times a day, marking it as an all day event
+[2026-05-18 09:11:33] [generate-ics]: Generated 525600 occurrences for cron job 'python cron-watcher.py' with schedule 'Every minute'
+[2026-05-18 09:11:33] [generate-ics]: Cron job 'python cron-watcher.py' runs multiple times a day, marking it as an all day event
+[2026-05-18 09:11:33] [generate-ics]: Generated calendar with 1098 events from 3 cron jobs for 365 days
+[2026-05-18 09:11:33] [generate-ics]: Calendar saved to /home/runner/work/cronical/cronical/public/calendar.ics
