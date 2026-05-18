@@ -152,23 +152,20 @@ def save_ics_file(cal):
 
 # gets the script from the commands the full path
 def get_command_name(command):
-    # split on common shell separators
     parts = re.split(r'(&&|\|\||;|\|)', command)
 
-    # get name from each part that is a command (not a separator)
-    names = []
+    result = []
     for part in parts:
         part = part.strip()
-        # skip separators
         if part in ("&&", "||", ";", "|"):
-            names.append(part)
+            result.append(part)
         else:
-            # extract just the script name from the path
-            name = Path(part.split()[0]).name if part else ""
-            if name:
-                names.append(name)
+            # strip path from any token that has one, keep everything else as is
+            tokens = part.split()
+            stripped = [Path(t).name if "/" in t else t for t in tokens]
+            result.append(" ".join(stripped))
 
-    return " ".join(names)
+    return " ".join(result)
 
 
 # # MAIN
