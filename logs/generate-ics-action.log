@@ -34,3 +34,12 @@
 [2026-05-18 02:09:10] [generate-ics]: Cron job 'script.sh' runs once a day, marking it as a single event
 [2026-05-18 02:09:10] [generate-ics]: Generated calendar with 1097 events from 3 cron jobs for 365 days
 [2026-05-18 02:09:10] [generate-ics]: Calendar saved to /home/runner/work/cronical/cronical/public/calendar.ics
+[2026-05-18 02:49:14] [generate-ics]: Parsed 3 cron jobs from 1 device files
+[2026-05-18 02:49:15] [generate-ics]: Generated 8760 occurrences for cron job 'check.py && test.py' with schedule 'At 10 minutes past the hour'
+[2026-05-18 02:49:15] [generate-ics]: Cron job 'check.py && test.py' runs multiple times a day, marking it as an all day event
+[2026-05-18 02:49:22] [generate-ics]: Generated 525600 occurrences for cron job 'python cron-watcher.py' with schedule 'Every minute'
+[2026-05-18 02:49:22] [generate-ics]: Cron job 'python cron-watcher.py' runs multiple times a day, marking it as an all day event
+[2026-05-18 02:49:22] [generate-ics]: Generated 365 occurrences for cron job 'script.sh' with schedule 'At 17:00'
+[2026-05-18 02:49:22] [generate-ics]: Cron job 'script.sh' runs once a day, marking it as a single event
+[2026-05-18 02:49:22] [generate-ics]: Generated calendar with 1097 events from 3 cron jobs for 365 days
+[2026-05-18 02:49:22] [generate-ics]: Calendar saved to /home/runner/work/cronical/cronical/public/calendar.ics
