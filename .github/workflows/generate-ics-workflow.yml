@@ -2,6 +2,9 @@ name: Generate ICS
 
 # runs on push to main branch only when changes are in crons/
 on:
+  schedule:
+    # runs on 1st day of every 3 month at 00:00
+    - cron: "0 0 1 1-12/3 *"
   push:
     branches: [ "main" ]
     paths:
