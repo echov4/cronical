@@ -1,10 +1,14 @@
 # cronical
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=1000&pause=1000&color=AA12F7&vCenter=true&width=1200&height=100&lines=Turn+your+cron+jobs+into+a+subscribable+calendar)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=5000&pause=10000&color=AA12F7&vCenter=true&width=1200&height=100&lines=Turn+your+cron+jobs+into+a+subscribable+calendar)](https://git.io/typing-svg)
 
-> [!WARNING]
+> [!WARNING] 
 > Currently in Testing
 >
 > This has not been fully tested and changes may be required
+>
+> Will need to test the following
+> - [ ] Mac compatability
+> - [ ] Multiple devices working fine
 
 ## What is cronical?
 
