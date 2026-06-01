@@ -10,4 +10,6 @@
 # every minute task
 * * * * * /run/test/scheduler.py
 
+# another minute task
+* * * * * welcome.py
 * * * * * /home/linux/git/github/cronical/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py # cronical-watcher
