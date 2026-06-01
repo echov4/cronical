@@ -5842,4 +5842,3298 @@ DTEND:20270601T000100
 DESCRIPTION:Device: laptop\n\nSchedule: At 00:00\n\nCron Schedule: @daily\
  n\nFull Command: backup.sh\n\nComments: daily backup
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260608
+DTEND;VALUE=DATE:20260609
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260609
+DTEND;VALUE=DATE:20260610
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260612
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260618
+DTEND;VALUE=DATE:20260619
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260703
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260707
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260713
+DTEND;VALUE=DATE:20260714
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260721
+DTEND;VALUE=DATE:20260722
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260808
+DTEND;VALUE=DATE:20260809
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260818
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270515
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270519
+DTEND;VALUE=DATE:20270520
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270524
+DTEND;VALUE=DATE:20270525
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[laptop] - python cron-watcher.py (runs Every minute)
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+DESCRIPTION:Device: laptop\n\nSchedule: Every minute\n\nCron Schedule: * *
+  * * *\n\nFull Command: /home/linux/git/github/cronical/.venv/bin/python /
+ home/linux/git/github/cronical/cron-watcher.py\n\nComments: cronical-watch
+ er
+END:VEVENT
 END:VCALENDAR
