@@ -11,4 +11,4 @@ horizon_days = 365
 [pipeline]
 # If we want to use github actions to generate the ICS, set to "true" - RECOMMENDED FOR MULTIPLE DEVICES
 # If we do not want to use github actions and generate the ICS locally, set to "false" - RECOMMENDED FOR SINGLE DEVICE
-use_github_actions = false
+use_github_actions = true
