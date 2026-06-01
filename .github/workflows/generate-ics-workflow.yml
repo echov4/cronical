@@ -22,7 +22,7 @@ jobs:
     # clones the repo into the runner
     steps:
     - uses: actions/checkout@v4
-      
+
     # installs the uv into runner
     - name: Install uv
       uses: astral-sh/setup-uv@v3
@@ -42,6 +42,10 @@ jobs:
     - name: Run Script
       run: |
         uv run generate-ics.py
+
+    # pulls before committing
+    - name: Pull before commit
+      run: git pull --rebase origin main
 
     # checks to see if calendar.ics is changed and adds any logs in generate-ics-action.log commit and pushes it
     - name: Commit and push calendar.ics
