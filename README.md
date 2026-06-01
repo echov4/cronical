@@ -381,3 +381,6 @@ If you need to re-run setup on an existing device:
 - **Machine must be on.** If your machine is off or sleeping, the watcher cannot detect changes. Changes will sync the next time the machine is on and the watcher runs.
 - **PAT expiry.** GitHub PATs can expire. If push/pull stops working, regenerate your PAT and update your `.env`.
 - **Multi-device timezone differences.** If you use cronical across devices in different timezones, calendar event times will reflect the timezone of whichever device last pushed. For personal single-timezone use this is not an issue.
+
+
+[![Visitor](https://hits.sh/github.com/echov4/cronical.svg?label=Visitors)](https://hits.sh)
