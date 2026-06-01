@@ -45,8 +45,8 @@ HORIZON_DAYS =  config["calendar"]["horizon_days"]
 
 # gets the crons of each file in crons/
 def get_device_file_crons():
-    # get all the files
-    all_device_files= os.listdir(PATH/CRONS_DIRECTORY)
+    # get all the files (skips the dot files)
+    all_device_files= [f for f in os.listdir(PATH/CRONS_DIRECTORY) if not f.startswith(".")]
 
     # check if at least one file exists
     if len(all_device_files) == 0:
