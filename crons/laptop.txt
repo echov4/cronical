@@ -7,4 +7,7 @@
 # weekly run
 @weekly /test/backup1.sh
 
+# every minute task
+* * * * * /run/test/scheduler.py
+
 * * * * * /home/linux/git/github/cronical/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py # cronical-watcher
