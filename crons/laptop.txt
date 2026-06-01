@@ -4,6 +4,9 @@
 # daily backup
 @daily backup.sh
 
+#daily report for expenses
+@daily report.sh
+
 # weekly run
 @weekly /test/weekly-report.sh
 
