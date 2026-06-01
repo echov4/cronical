@@ -1,0 +1,7 @@
+[2026-06-01 16:46:30] [generate-ics]: Parsed 2 cron jobs from 1 device files
+[2026-06-01 16:46:31] [generate-ics]: Generated 21900 occurrences for cron job 'task.sh && run.py ; last.py' with schedule 'Every minute, between 01:00 and 01:59'
+[2026-06-01 16:46:31] [generate-ics]: Cron job 'task.sh && run.py ; last.py' runs multiple times a day, marking it as an all day event
+[2026-06-01 16:46:31] [generate-ics]: Generated 365 occurrences for cron job 'backup.sh' with schedule 'At 00:00'
+[2026-06-01 16:46:31] [generate-ics]: Cron job 'backup.sh' runs once a day, marking it as a single event
+[2026-06-01 16:46:31] [generate-ics]: Generated calendar with 730 events from 2 cron jobs for 365 days
+[2026-06-01 16:46:31] [generate-ics]: Calendar saved to /home/runner/work/cronical/cronical/public/calendar.ics
