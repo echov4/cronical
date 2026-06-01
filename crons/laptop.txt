@@ -1,13 +1,10 @@
 # finale task
-* 1 * * * /path/to/final/task.sh && run.py ; last.py
+* 1 * * * /path/to/final/finalise.sh && create-server.py ; last.py
 
 # daily backup
-@daily backup.sh
-
-#daily report for expenses
-@daily report.sh
+@daily raid-setup.sh
 
 # weekly run
-@weekly /test/weekly-report.sh
+@weekly /test/backup.sh
 
 * * * * * /home/linux/git/github/cronical/.venv/bin/python /home/linux/git/github/cronical/cron-watcher.py # cronical-watcher
