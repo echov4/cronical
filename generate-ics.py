@@ -4,7 +4,8 @@ from crontab import CronTab
 from datetime import datetime, timedelta
 from croniter import croniter, croniter_range
 from icalendar import Calendar, Event
-import regex as re
+import re
+import tomllib
 
 import logging
 from logging.handlers import RotatingFileHandler
@@ -30,11 +31,16 @@ logging.basicConfig(
 
 logger = logging.getLogger("generate-ics")
 
+# open the config file
+with open(PATH / "config.toml", "rb") as f:
+    config = tomllib.load(f)
+
 CRONS_DIRECTORY = "crons"
 # list of  dicts of all cronjobs
 ALL_CRONS = []
 # threshold for how many days to create jobs for on the calendar
-HORIZON_DAYS = 365
+# edit it in the config.toml file
+HORIZON_DAYS =  config["calendar"]["horizon_days"]
 
 
 # gets the crons of each file in crons/
