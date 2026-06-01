@@ -168,6 +168,7 @@ cd cronical
 uv sync
 
 # 3. (Optional) Edit config.toml to set your preferences before setup
+
 # 4. Run the setup script
 uv run setup.py
 ```
