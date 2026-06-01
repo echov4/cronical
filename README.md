@@ -1,7 +1,7 @@
 # cronical
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=5000&pause=10000&color=AA12F7&vCenter=true&width=1200&height=100&lines=Turn+your+cron+jobs+into+a+subscribable+calendar)](https://git.io/typing-svg)
 
-> [!WARNING] 
+> [!WARNING]
 > Currently in Testing
 >
 > This has not been fully tested and changes may be required
@@ -9,6 +9,11 @@
 > Will need to test the following
 > - [ ] Mac compatability
 > - [ ] Multiple devices working fine
+
+
+> [!NOTE]
+> Full transparency this README was written with AI assistance and has been fact checked.
+
 
 ## What is cronical?
 
@@ -25,7 +30,8 @@ cron-watcher.py detects the change (runs every 5 minutes by default)
         ↓
 commits and pushes to your GitHub repo
         ↓
-GitHub Actions generates a merged calendar.ics from all devices
+GitHub Actions generates a merged calendar.ics from all devices (if use_github_actions = true)
+OR generate-ics.py runs locally before pushing (if use_github_actions = false)
         ↓
 calendar.ics is served publicly via your chosen hosting
         ↓
@@ -40,6 +46,7 @@ subscribe in Google Calendar, Apple Calendar, Outlook, etc.
 - Automatically syncs crontab changes
 - Entirely free stack (GitHub, GitHub Actions, Cloudflare Pages or raw GitHub URL)
 - Anyone can make a copy of this repo to their own account and have it working for their own devices
+- Configurable via `config.toml` (no need to edit source files)
 
 ---
 
@@ -61,10 +68,11 @@ subscribe in Google Calendar, Apple Calendar, Outlook, etc.
 │   └── workflows/
 │       └── generate-ics-workflow.yml
 ├── cron-watcher.py                     # watches for crontab changes and pushes to GitHub
-├── generate-ics.py                      # generates calendar.ics from all device files
-├── setup.py                             # one-time setup script
-├── sample-crons.txt                     # sample cron jobs for testing
-├── .env                                 # local environment variables (never committed, created by setup.py)
+├── generate-ics.py                     # generates calendar.ics from all device files
+├── setup.py                            # one-time setup script
+├── config.toml                         # shared configuration (committed to repo)
+├── sample-crons.txt                    # sample cron jobs for testing
+├── .env                                # local secrets and device config (never committed, created by setup.py)
 ├── .gitignore
 ├── pyproject.toml
 ├── .python-version
@@ -91,8 +99,43 @@ croniter>=6.2.2
 icalendar>=7.1.0
 python-crontab>=3.3.0
 python-dotenv>=1.2.2
-regex>=2026.5.9
 ```
+
+---
+
+## Configuration
+
+cronical splits configuration into two files:
+
+### `config.toml` (committed to repo, shared across all devices)
+
+```toml
+[watcher]
+# interval in minutes that cron-watcher.py runs to check for cron changes
+interval_minutes = 5
+
+[calendar]
+# number of days ahead to generate calendar events for
+# reduce this if the ICS file becomes too large or calendar apps are slow to sync
+horizon_days = 365
+
+[pipeline]
+# true  = GitHub Actions generates the ICS after each push (recommended for multiple devices)
+# false = generate-ics.py runs locally before pushing (recommended for single device)
+use_github_actions = false
+```
+
+### `.env` (never committed, per-device secrets)
+
+```
+DEVICE_NAME=laptop
+DEVICE_PATH=/full/path/to/cronical/crons/laptop.txt
+GITHUB_PAT=ghp_xxxxxxxxxxxxxxxxxxxx
+GITHUB_USER=yourusername
+GITHUB_REPO_NAME=cronical
+```
+
+Created automatically by `setup.py`. Never commit this file — it is already in `.gitignore`.
 
 ---
 
@@ -124,7 +167,8 @@ cd cronical
 # 2. Install dependencies
 uv sync
 
-# 3. Run the setup script
+# 3. (Optional) Edit config.toml to set your preferences before setup
+# 4. Run the setup script
 uv run setup.py
 ```
 
@@ -135,7 +179,7 @@ The setup script will prompt you for your device name and GitHub credentials, th
 3. Creates your device file in `crons/` (e.g. `crons/laptop.txt`)
 4. Copies your current crontab into the device file
 5. Creates and populates your `.env` file with your GitHub credentials
-6. Adds `cron-watcher.py` to your system crontab (runs every 5 minutes by default, configurable)
+6. Adds `cron-watcher.py` to your system crontab (interval set by `config.toml`, default 5 minutes)
 
 All actions are logged to `logs/cronical.log`.
 
@@ -177,29 +221,24 @@ GITHUB_USER=yourusername
 GITHUB_REPO_NAME=cronical
 ```
 
-Never commit `.env` to git. It is already in `.gitignore`.
-
 ### 5. Add the watcher to your crontab
 
 ```bash
 crontab -e
 ```
 
-Add this line, replacing the path with your actual path:
+Add this line, replacing the path and interval with your actual values:
 
 ```
 */5 * * * * /path/to/cronical/.venv/bin/python /path/to/cronical/cron-watcher.py # cronical-watcher
 ```
 
-The `*/5` runs the watcher every 5 minutes. Change this to suit your needs.
+The `*/5` matches `interval_minutes` in `config.toml`. Change both together if you want a different interval.
 
 </details>
 
 ---
 
-## Adding a Second Device
-> [!WARNING]
-> This has not been fully tried and tested
 
 On the new device:
 
@@ -212,27 +251,34 @@ uv run setup.py
 
 The setup script will create a new device file in `crons/` and configure the watcher. All devices push to the same repo and GitHub Actions merges them into one calendar.
 
+> [!NOTE]
+> For multiple devices, set `use_github_actions = true` in `config.toml`. This ensures all device files are merged into one calendar by GitHub Actions rather than whichever device last pushed.
+
 ---
 
 ## Scripts
 
 ### `setup.py`
 
-One-time setup script. Run this after cloning the repo on any new device. Logs all actions to `logs/cronical.log`.
+One-time setup script. Run this after cloning the repo on any new device. Reads `interval_minutes` from `config.toml` when adding the watcher to your crontab. Logs all actions to `logs/cronical.log`.
 
 ### `cron-watcher.py`
 
-Runs as a cron job every 5 minutes by default (configurable). Logs changes and git operations to `logs/cronical.log`. It will:
+Runs as a cron job at the interval set in `config.toml` (default 5 minutes). Logs changes and git operations to `logs/cronical.log`. It will:
 
 - Check all required `.env` variables are set
 - Read your current crontab
 - Compare it to your device file in `crons/`
-- If changed: pull remote changes, update the device file, commit and push to GitHub
+- If changed:
+  - Pull remote changes
+  - Update the device file
+  - If `use_github_actions = false`: run `generate-ics.py` locally and include `[skip ci]` in the commit message to prevent GitHub Actions from also running
+  - If `use_github_actions = true`: commit and push, letting GitHub Actions handle ICS generation
 - If unchanged: print to terminal only, nothing written to log
 
 ### `generate-ics.py`
 
-Runs in GitHub Actions on every push to `crons/**` and on a quarterly schedule. Logs progress to `logs/generate-ics-action.log`. It will:
+Runs in GitHub Actions on every push to `crons/**` (when `use_github_actions = true`) and on a quarterly schedule. Can also run locally (when `use_github_actions = false`). Reads `horizon_days` from `config.toml`. Logs progress to `logs/generate-ics-action.log`. It will:
 
 - Read all device files from `crons/`
 - For each job, determine if it runs multiple times per day:
@@ -241,47 +287,48 @@ Runs in GitHub Actions on every push to `crons/**` and on a quarterly schedule. 
 - Save the merged `calendar.ics` to `public/`
 - Log how many events were generated and where the file was saved
 
-By default events are generated for 365 days ahead. If the ICS file becomes too large or calendar apps are slow to sync, reduce this by changing `HORIZON_DAYS` at the top of `generate-ics.py`:
-
-```python
-HORIZON_DAYS = 365  # reduce this if the file is too large
-```
-
 ---
 
-## Local ICS Generation (Alternative)
+## GitHub Actions vs Local Generation
 
-By default, `generate-ics.py` runs in GitHub Actions after each push. If you prefer to generate the calendar locally before pushing, `cron-watcher.py` includes a commented-out line that supports this:
+Controlled by `use_github_actions` in `config.toml`.
 
-```python
-# run generate ics locally before adding, committing and pushing up instead of using github actions
-# run_generate_ics_local()
-```
-
-To enable local generation:
-
-1. Uncomment `run_generate_ics_local()` in `cron-watcher.py`
-2. Disable the GitHub Actions workflow at `GitHub repo → Actions → Generate ICS → disable workflow`
-
-In this mode the flow becomes:
+### `use_github_actions = true` (recommended for multiple devices)
 
 ```
 crontab changes on your device
         ↓
 cron-watcher.py detects the change
         ↓
-pulls remote changes
+pulls remote changes, updates device file
         ↓
-updates the device file
+commits and pushes to GitHub
+        ↓
+GitHub Actions generates calendar.ics from all device files
+        ↓
+calendar.ics is served from hosting
+```
+
+### `use_github_actions = false` (recommended for single device)
+
+```
+crontab changes on your device
+        ↓
+cron-watcher.py detects the change
+        ↓
+pulls remote changes, updates device file
         ↓
 runs generate-ics.py locally to produce calendar.ics
         ↓
-commits and pushes both files to GitHub
+commits and pushes both files to GitHub with [skip ci] to skip Actions
         ↓
 calendar.ics is served from the repo directly
 ```
 
 This is useful if you only have one device, want faster updates without waiting for Actions, or want to keep the repo fully self-contained without any CI dependency.
+
+> [!NOTE]
+> When switching between modes, remember to also enable or disable the GitHub Actions workflow at `GitHub repo → Actions → Generate ICS`.
 
 ---
 
@@ -333,7 +380,7 @@ Keeps your repo private while serving the ICS file publicly. Cloudflare Pages wo
 You can also set a custom domain in Cloudflare Pages settings for free.
 
 > [!NOTE]
-> When using Cloudflare Pages, the calendar will deploy twice on each cron change: once immediately when you push the device file, and again after GitHub Actions regenerates `calendar.ics`. The second deploy is the one that reflects the updated calendar. This is expected behaviour.
+> When using Cloudflare Pages with `use_github_actions = true`, the calendar will deploy twice on each cron change: once immediately when you push the device file, and again after GitHub Actions regenerates `calendar.ics`. The second deploy is the one that reflects the updated calendar. This is expected behaviour.
 
 ---
 
@@ -376,7 +423,7 @@ If you need to re-run setup on an existing device:
 - **Linux and macOS only.** Windows is not supported since it does not have a native cron daemon.
 - **User crontab only.** System-wide crontabs in `/etc/cron.d/` or `/etc/crontab` are not monitored. Only the current user's crontab (`crontab -l`) is tracked.
 - **Special cron syntax may not parse correctly.** Expressions like `@reboot` or non-standard syntax may be skipped or display incorrect human-readable descriptions.
-- **Calendar events expire after 365 days by default.** The ICS regenerates on every crontab change and quarterly via the scheduled workflow, but if neither happens for over a year events will run out. Adjust `HORIZON_DAYS` in `generate-ics.py` if needed.
+- **Calendar events expire after the configured horizon.** The ICS regenerates on every crontab change and quarterly via the scheduled workflow, but if neither happens for longer than `horizon_days` events will run out. Adjust `horizon_days` in `config.toml` if needed.
 - **Google Calendar syncs slowly.** Google Calendar only refreshes subscribed calendars every 12-24 hours. Changes will not appear instantly.
 - **Machine must be on.** If your machine is off or sleeping, the watcher cannot detect changes. Changes will sync the next time the machine is on and the watcher runs.
 - **PAT expiry.** GitHub PATs can expire. If push/pull stops working, regenerate your PAT and update your `.env`.
