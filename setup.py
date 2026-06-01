@@ -2,14 +2,24 @@ import subprocess
 from crontab import CronTab
 from pathlib import Path
 import shutil
+import tomllib
 
 import logging
 from logging.handlers import RotatingFileHandler
 
+
 # global
 PATH = Path(__file__).parent
+
+# open config.toml
+with open(PATH / "config.toml", "rb") as f:
+    config = tomllib.load(f)
+
+
 WATCHER_FILE = "cron-watcher.py"
 CRONS_DIRECTORY= "crons"
+# can edit in the config.toml file
+CRON_INTERVAL_MINUTES = config["watcher"]["interval_minutes"]
 
 # need to make the logs, crons, and public directories (will need logs/ for logging to work)
 (PATH / "logs").mkdir(exist_ok=True)
@@ -140,7 +150,7 @@ def add_watcher_to_crontab(python_venv_runtime_path):
     # if the watcher script command is not in the original cron tab, then add the watcher script command
     if not watcher_added_status:
         job = cron.new(command=watcher_command)
-        job.minute.every(5)
+        job.minute.every(CRON_INTERVAL_MINUTES)
         job.set_comment("cronical-watcher")
         cron.write()
         logger.info("cron-watcher.py script command added in the original cron tab, the command:\n" + watcher_command)
