@@ -22,9 +22,6 @@ jobs:
     # clones the repo into the runner
     steps:
     - uses: actions/checkout@v4
-
-    - name: Pull before commit
-      run: git pull --rebase origin main
       
     # installs the uv into runner
     - name: Install uv
