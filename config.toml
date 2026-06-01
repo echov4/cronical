@@ -2,7 +2,7 @@
 
 [watcher]
 # interval in minutes that the cron-watcher.py script is run to check for cron changes
-interval_minutes = 5
+interval_minutes = 1
 
 [calendar]
 # If the ICS file becomes too large or calendar apps are slow to sync, reduce this by changing the number of days to be computed
