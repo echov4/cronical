@@ -2,14 +2,21 @@ import os
 import subprocess
 from dotenv import load_dotenv
 from pathlib import Path
+import tomllib
 
 from datetime import datetime
 import logging
 from logging.handlers import RotatingFileHandler
 
 PATH = Path(__file__).parent
+
+# open the config file
+with open(PATH / "config.toml", "rb") as f:
+    config = tomllib.load(f)
+
 # load the .env file
 load_dotenv(PATH / ".env")
+
 # get the device name and file path
 DEVICE_NAME = os.getenv("DEVICE_NAME")
 DEVICE_FILE_PATH = os.getenv("DEVICE_PATH")
@@ -17,7 +24,7 @@ GITHUB_PAT = os.getenv("GITHUB_PAT")
 GITHUB_REPO_NAME = os.getenv("GITHUB_REPO_NAME")
 GITHUB_USER = os.getenv("GITHUB_USER")
 REMOTE_URL = f"https://{GITHUB_PAT}@github.com/{GITHUB_USER}/{GITHUB_REPO_NAME}.git"
-
+USE_GITHUB_ACTIONS = config["pipeline"]["use_github_actions"]
 
 # setup logging with 1MB limit and keep 3 backups
 rotating_handler = RotatingFileHandler(
@@ -73,8 +80,14 @@ def git_add():
 
 
 def git_commit():
+    # if use action is true, then use the actions. If it is not set as true, then skip the actions
+    if USE_GITHUB_ACTIONS:
+        message = f"[{DEVICE_NAME}]: update crons for device"
+    else:
+        message = f"[{DEVICE_NAME}]: update crons for device [skip ci]"
+
     result = subprocess.run(
-        ["git",  "-C", str(PATH), "commit", "-m", f"[{DEVICE_NAME}]: update crons for device"],
+        ["git",  "-C", str(PATH), "commit", "-m", message],
         capture_output=True,
         text=True
     )
@@ -149,11 +162,13 @@ def run_generate_ics_local():
 # if there are changes in the cronjob then execute the changes
 check_env_variables()
 original_cronjobs = get_original_cronjobs()
+
 if monitor_cron_changes(original_cronjobs):
     git_pull()
     update_device_file(original_cronjobs)
-    # # run generate ics locally before adding, committing and pushing up instead of using github actions
-    # run_generate_ics_local()
+    # if the use github actions is false then run it locally
+    if not USE_GITHUB_ACTIONS:
+        run_generate_ics_local()
     git_add()
     git_commit()
     git_push()
