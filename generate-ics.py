@@ -40,8 +40,8 @@ CRONS_DIRECTORY = "crons"
 ALL_CRONS = []
 # threshold for how many days to create jobs for on the calendar
 # edit it in the config.toml file
-HORIZON_DAYS =  config["calendar"]["horizon_days"]
-
+HORIZON_DAYS = config["calendar"]["horizon_days"]
+EXCLUDE_SELF = config["watcher"]["exclude_self"]
 
 # gets the crons of each file in crons/
 def get_device_file_crons():
@@ -64,6 +64,10 @@ def get_device_file_crons():
 def parse_crons(file, file_contents):
     cron = CronTab(tab=file_contents)
     for job in cron:
+        # check to see if the job excludes the cron-watcher from the calendar
+        if EXCLUDE_SELF and job.comment == "cronical-watcher":
+            continue
+
         # checks to see if it is a valid job and is not commented out
         if job.is_enabled():
             ALL_CRONS.append(
