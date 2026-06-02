@@ -113,6 +113,10 @@ cronical splits configuration into two files:
 [watcher]
 # interval in minutes that cron-watcher.py runs to check for cron changes
 interval_minutes = 1
+# exclude the cron-watcher.py command from the final calendar that is generated
+# true = the final calendar does not include an event for cron-watcher.py
+# false = the final calendar includes an event for the cron-watcher.py
+exclude_self = true
 
 [calendar]
 # number of days ahead to generate calendar events for
