@@ -292,9 +292,6 @@ Runs in GitHub Actions on every push to `crons/**` (when `use_github_actions = t
 - Save the merged `calendar.ics` to `public/`
 - Log how many events were generated and where the file was saved
 
-If using GitHub Actions. The workflow runs automatically on every push to `crons/**`, weekly on Sunday at midnight as a safety net,
-and can also be triggered manually via the GitHub Actions UI (`Actions → Generate ICS → Run workflow`).
-
 ---
 
 ## GitHub Actions vs Local Generation
@@ -316,6 +313,9 @@ GitHub Actions generates calendar.ics from all device files
         ↓
 calendar.ics is served from hosting
 ```
+
+If using GitHub Actions. The workflow runs automatically on every push to `crons/**`, weekly on Sunday at midnight as a safety net,
+and can also be triggered manually via the GitHub Actions UI (`Actions → Generate ICS → Run workflow`).
 
 ### `use_github_actions = false` (recommended for single device)
 
