@@ -1,14 +1,15 @@
 # config.toml
 
 [watcher]
-# interval in minutes that the cron-watcher.py script is run to check for cron changes
+# interval in minutes that cron-watcher.py runs to check for cron changes
 interval_minutes = 1
 
 [calendar]
-# If the ICS file becomes too large or calendar apps are slow to sync, reduce this by changing the number of days to be computed
+# number of days ahead to generate calendar events for
+# reduce this if the ICS file becomes too large or calendar apps are slow to sync
 horizon_days = 365
 
 [pipeline]
-# If we want to use github actions to generate the ICS, set to "true" - RECOMMENDED FOR MULTIPLE DEVICES
-# If we do not want to use github actions and generate the ICS locally, set to "false" - RECOMMENDED FOR SINGLE DEVICE
-use_github_actions = true
+# true  = GitHub Actions generates the ICS after each push (recommended for multiple devices)
+# false = generate-ics.py runs locally before pushing (recommended for single device)
+use_github_actions = false
