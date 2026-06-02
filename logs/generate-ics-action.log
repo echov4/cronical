@@ -1,3 +1,10 @@
 [2026-06-02 17:08:02] [generate-ics]: Parsed 0 cron jobs from 1 device files
 [2026-06-02 17:08:02] [generate-ics]: Generated calendar with 0 events from 0 cron jobs for 365 days
 [2026-06-02 17:08:02] [generate-ics]: Calendar saved to /home/linux/git/github/cronical/public/calendar.ics
+[2026-06-02 17:21:01] [generate-ics]: Parsed 2 cron jobs from 1 device files
+[2026-06-02 17:21:06] [generate-ics]: Generated 525600 occurrences for cron job ' daily-task.py' with schedule 'Every minute'
+[2026-06-02 17:21:06] [generate-ics]: Cron job ' daily-task.py' runs multiple times a day, marking it as an all day event
+[2026-06-02 17:21:11] [generate-ics]: Generated 525600 occurrences for cron job 'python cron-watcher.py' with schedule 'Every minute'
+[2026-06-02 17:21:11] [generate-ics]: Cron job 'python cron-watcher.py' runs multiple times a day, marking it as an all day event
+[2026-06-02 17:21:11] [generate-ics]: Generated calendar with 732 events from 2 cron jobs for 365 days
+[2026-06-02 17:21:11] [generate-ics]: Calendar saved to /home/linux/git/github/cronical/public/calendar.ics
