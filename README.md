@@ -26,7 +26,7 @@
 ```
 crontab changes on your device
         ↓
-cron-watcher.py detects the change (runs every 5 minutes by default)
+cron-watcher.py detects the change (runs every minute by default)
         ↓
 commits and pushes to your GitHub repo
         ↓
@@ -112,7 +112,7 @@ cronical splits configuration into two files:
 ```toml
 [watcher]
 # interval in minutes that cron-watcher.py runs to check for cron changes
-interval_minutes = 5
+interval_minutes = 1
 
 [calendar]
 # number of days ahead to generate calendar events for
@@ -180,7 +180,7 @@ The setup script will prompt you for your device name and GitHub credentials, th
 3. Creates your device file in `crons/` (e.g. `crons/laptop.txt`)
 4. Copies your current crontab into the device file
 5. Creates and populates your `.env` file with your GitHub credentials
-6. Adds `cron-watcher.py` to your system crontab (interval set by `config.toml`, default 5 minutes)
+6. Adds `cron-watcher.py` to your system crontab (interval set by `config.toml`, default 1 minute)
 
 All actions are logged to `logs/cronical.log`.
 
@@ -231,10 +231,10 @@ crontab -e
 Add this line, replacing the path and interval with your actual values:
 
 ```
-*/5 * * * * /path/to/cronical/.venv/bin/python /path/to/cronical/cron-watcher.py # cronical-watcher
+* * * * * /path/to/cronical/.venv/bin/python /path/to/cronical/cron-watcher.py # cronical-watcher
 ```
 
-The `*/5` matches `interval_minutes` in `config.toml`. Change both together if you want a different interval.
+The first `*` matches `interval_minutes` in `config.toml`. Change both together if you want a different interval.
 
 </details>
 
@@ -265,7 +265,7 @@ One-time setup script. Run this after cloning the repo on any new device. Reads 
 
 ### `cron-watcher.py`
 
-Runs as a cron job at the interval set in `config.toml` (default 5 minutes). Logs changes and git operations to `logs/cronical.log`. It will:
+Runs as a cron job at the interval set in `config.toml` (default every minute). Logs changes and git operations to `logs/cronical.log`. It will:
 
 - Check all required `.env` variables are set
 - Read your current crontab
