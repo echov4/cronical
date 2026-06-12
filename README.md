@@ -12,7 +12,7 @@
 
 
 > [!NOTE]
-> Full transparency this README was written with AI assistance and has been fact checked.
+> Full transparency this README was written with AI assistance and has been fact checked and confirmed
 
 
 ## What is cronical?
